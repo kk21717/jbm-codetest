@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0174a845-95a2-4d24-83ba-b35c70305a3d": {
+      "ProjectGuid": "0174a845-95a2-4d24-83ba-b35c70305a3d",
+      "DisplayName": "Rest.Api",
+      "ColorIndex": 0
+    },
+    "b7db595a-d192-4302-a22c-aebe088a7192": {
+      "ProjectGuid": "b7db595a-d192-4302-a22c-aebe088a7192",
+      "DisplayName": "Application.Command",
+      "ColorIndex": 1
+    },
+    "067263b8-b92c-41eb-9346-f5a5ab4e74bd": {
+      "ProjectGuid": "067263b8-b92c-41eb-9346-f5a5ab4e74bd",
+      "DisplayName": "Application.Command.UnitTest",
+      "ColorIndex": 2
+    },
+    "33f370a8-46ef-45ab-9d98-47a856ca0108": {
+      "ProjectGuid": "33f370a8-46ef-45ab-9d98-47a856ca0108",
+      "DisplayName": "Application.Query",
+      "ColorIndex": 3
+    },
+    "85a65a2c-7505-404b-b3af-ad19edb0683b": {
+      "ProjectGuid": "85a65a2c-7505-404b-b3af-ad19edb0683b",
+      "DisplayName": "Application.Query.UnitTest",
+      "ColorIndex": 4
+    },
+    "eb05a03b-2fdb-494d-83c6-16617018f7b1": {
+      "ProjectGuid": "eb05a03b-2fdb-494d-83c6-16617018f7b1",
+      "DisplayName": "Domain.Core",
+      "ColorIndex": 5
+    },
+    "9bddeb20-7f24-4648-b2c0-054abadabc83": {
+      "ProjectGuid": "9bddeb20-7f24-4648-b2c0-054abadabc83",
+      "DisplayName": "Domain.Core.UnitTest",
+      "ColorIndex": 6
+    },
+    "01b9579e-b926-4cc2-a496-aee6dba10e2d": {
+      "ProjectGuid": "01b9579e-b926-4cc2-a496-aee6dba10e2d",
+      "DisplayName": "Infrastructure.Repository.SQLServer",
+      "ColorIndex": 7
+    },
+    "f189d31b-51cd-4bd3-80a9-aa787faaa096": {
+      "ProjectGuid": "f189d31b-51cd-4bd3-80a9-aa787faaa096",
+      "DisplayName": "Service.RestApi",
+      "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 9
+}

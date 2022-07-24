@@ -1,0 +1,15 @@
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\bin\Debug\net6.0\Application.Command.deps.json
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\bin\Debug\net6.0\Application.Command.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\bin\Debug\net6.0\ref\Application.Command.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\bin\Debug\net6.0\Application.Command.pdb
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\bin\Debug\net6.0\Domain.Core.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\bin\Debug\net6.0\Domain.Core.pdb
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\Application.Command.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\Application.Command.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\Application.Command.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\Application.Command.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\Application.Command.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\Application.Command.csproj.CopyComplete
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\Application.Command.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\ref\Application.Command.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Application.Command\obj\Debug\net6.0\Application.Command.pdb

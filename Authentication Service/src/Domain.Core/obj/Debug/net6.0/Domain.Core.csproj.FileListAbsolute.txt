@@ -1,0 +1,12 @@
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\bin\Debug\net6.0\Domain.Core.deps.json
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\bin\Debug\net6.0\Domain.Core.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\bin\Debug\net6.0\ref\Domain.Core.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\bin\Debug\net6.0\Domain.Core.pdb
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\obj\Debug\net6.0\Domain.Core.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\obj\Debug\net6.0\Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\obj\Debug\net6.0\Domain.Core.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\obj\Debug\net6.0\Domain.Core.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\obj\Debug\net6.0\Domain.Core.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\obj\Debug\net6.0\Domain.Core.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\obj\Debug\net6.0\ref\Domain.Core.dll
+C:\WorkingFolder\Code Tests\Jabama\Authentication Service\src\Domain.Core\obj\Debug\net6.0\Domain.Core.pdb
