@@ -1,0 +1,17 @@
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.deps.json
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\ref\Infrastructure.Repository.SQLServer.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Domain.Services.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Domain.Services.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.csproj.CopyComplete
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\ref\Infrastructure.Repository.SQLServer.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.pdb

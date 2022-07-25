@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "dyPu1gwL+M59zaM6+nF5RRkgdrfZZcjF/O69ywwbGUi/z624iXXX4yeXCgTdyJTyquLcxP2HREfMJ/Ai6aJ7eA==",
+  "success": true,
+  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

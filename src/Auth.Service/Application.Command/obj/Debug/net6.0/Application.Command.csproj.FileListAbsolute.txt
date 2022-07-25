@@ -1,0 +1,17 @@
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Application.Command.deps.json
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Application.Command.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\ref\Application.Command.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Application.Command.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Domain.Services.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Domain.Services.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.csproj.CopyComplete
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\ref\Application.Command.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.pdb

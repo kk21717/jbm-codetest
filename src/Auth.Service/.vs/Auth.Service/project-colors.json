@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9bab69eb-2ad5-4fb5-bd91-f0042e9c7b42": {
+      "ProjectGuid": "9bab69eb-2ad5-4fb5-bd91-f0042e9c7b42",
+      "DisplayName": "Application.Services",
+      "ColorIndex": 0
+    },
+    "ae14c790-eb21-4492-898d-2f790343452d": {
+      "ProjectGuid": "ae14c790-eb21-4492-898d-2f790343452d",
+      "DisplayName": "Domain.Services",
+      "ColorIndex": 1
+    },
+    "ee89f531-45fd-471e-9dbd-237980d5c15d": {
+      "ProjectGuid": "ee89f531-45fd-471e-9dbd-237980d5c15d",
+      "DisplayName": "Domain.Entities",
+      "ColorIndex": 2
+    },
+    "1eba555d-ac6c-400b-b2a0-19fb95461576": {
+      "ProjectGuid": "1eba555d-ac6c-400b-b2a0-19fb95461576",
+      "DisplayName": "Application.Command",
+      "ColorIndex": 3
+    },
+    "ca7aee09-a809-4078-87fb-81e12d85daef": {
+      "ProjectGuid": "ca7aee09-a809-4078-87fb-81e12d85daef",
+      "DisplayName": "Application.Query",
+      "ColorIndex": 4
+    },
+    "221230f0-0def-432f-bdd0-4ce8256f9400": {
+      "ProjectGuid": "221230f0-0def-432f-bdd0-4ce8256f9400",
+      "DisplayName": "Infrastructure.Repository.SQLServer",
+      "ColorIndex": 5
+    },
+    "c04774b1-6e6e-48d4-af89-1d47a157f631": {
+      "ProjectGuid": "c04774b1-6e6e-48d4-af89-1d47a157f631",
+      "DisplayName": "Controller.Http.Rest",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}
