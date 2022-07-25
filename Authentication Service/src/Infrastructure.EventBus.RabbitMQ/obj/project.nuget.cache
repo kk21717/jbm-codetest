@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "xKSYOwXrWtbYIG7SuSZ9G2kDgwpEpI+3f7HL1G7hAQvGbmtbwinL4l6kMNVY8OfvvL2KiDh2BiaTujB3uJWqnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

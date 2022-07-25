@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aomoG/aoXHKGCqHXOBFUXptoTjSudFPNaQ4Zvk41P3ulSXJxj5MIO9W1V4n6kUJ2Cz9fUbKAriFYJigDcvrmpg==",
+  "dgSpecHash": "J+bpU6PZkCuZJJcBc/zJyEpOTf/Fg5Qcrli5B9/83Y6QBXv3HKqqlqTSBgpw08bAnsNdS+RYdeajnjKu7VVaSw==",
   "success": true,
-  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Application.Query\\Application.Query.csproj",
+  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Application.Query\\Application.Query.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

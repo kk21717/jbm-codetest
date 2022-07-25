@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Service.RestApi\\Service.RestApi.csproj": {}
+    "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Service.RestApi\\Service.RestApi.csproj": {}
   },
   "projects": {
-    "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Application.Command\\Application.Command.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj",
-        "projectName": "Domain.Core",
-        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core\\obj\\",
+        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Application.Command\\Application.Command.csproj",
+        "projectName": "Application.Command",
+        "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Application.Command\\Application.Command.csproj",
+        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
+        "outputPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Application.Command\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,76 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.72.17:8092/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj",
+        "projectName": "Domain.Core",
+        "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
+        "outputPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -58,17 +128,17 @@
         }
       }
     },
-    "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Service.RestApi\\Service.RestApi.csproj": {
+    "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Service.RestApi\\Service.RestApi.csproj",
-        "projectName": "Service.RestApi",
-        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Service.RestApi\\Service.RestApi.csproj",
-        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Service.RestApi\\obj\\",
+        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
+        "projectName": "Infrastructure.Repository.SQLServer",
+        "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
+        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
+        "outputPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Infrastructure.Repository.SQLServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,14 +146,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -98,6 +169,89 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Service.RestApi\\Service.RestApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Service.RestApi\\Service.RestApi.csproj",
+        "projectName": "Service.RestApi",
+        "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Service.RestApi\\Service.RestApi.csproj",
+        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
+        "outputPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Service.RestApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.72.17:8092/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Application.Command\\Application.Command.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Application.Command\\Application.Command.csproj"
+              },
+              "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj"
+              },
+              "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.14.0, )"

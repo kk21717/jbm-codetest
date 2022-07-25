@@ -1,4 +1,7 @@
+using Application.Command;
+using Domain.Core;
 using Domain.Core.Dto;
+using MassTransit;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Service.RestApi.Controllers
@@ -7,21 +10,26 @@ namespace Service.RestApi.Controllers
     [Route("[controller]")]
     public class AuthenticationController : ControllerBase
     {
-    //    private static readonly string[] Summaries = new[]
-    //    {
-    //    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    //};
+    
 
         private readonly ILogger<AuthenticationController> _logger;
+        private readonly IRepository _repository;
+        private readonly IPublishEndpoint _publishEndpoint;
 
-        public AuthenticationController(ILogger<AuthenticationController> logger)
+        public AuthenticationController(ILogger<AuthenticationController> logger,
+            IRepository repository,
+            IPublishEndpoint publishEndpoint
+            )
         {
             _logger = logger;
+            _repository = repository;
+            _publishEndpoint = publishEndpoint;
         }
 
         [HttpPost()]
         public async Task<ActionResult> RegisterAccountAsync(RegisterAccountInput input)
         {
+            //var command = new RegisterAccountCommand(_repository)
             //await;
             return Ok("hello " + input.FirstName + " " + input.LastName);
 

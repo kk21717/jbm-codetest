@@ -3871,19 +3871,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kamran\\.nuget\\packages\\": {}
+    "C:\\Users\\k.karami\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core.UnitTest\\Domain.Core.UnitTest.csproj",
+      "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core.UnitTest\\Domain.Core.UnitTest.csproj",
       "projectName": "Domain.Core.UnitTest",
-      "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core.UnitTest\\Domain.Core.UnitTest.csproj",
-      "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core.UnitTest\\obj\\",
+      "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core.UnitTest\\Domain.Core.UnitTest.csproj",
+      "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
+      "outputPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core.UnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3891,14 +3891,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.72.17:8092/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj": {
-              "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj"
+            "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\Karami\\other\\jbm-codetest\\Authentication Service\\src\\Domain.Core\\Domain.Core.csproj"
             }
           }
         }
