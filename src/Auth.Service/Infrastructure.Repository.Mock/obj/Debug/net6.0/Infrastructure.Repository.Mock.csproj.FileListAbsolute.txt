@@ -15,3 +15,20 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\ref\Infrastructure.Repository.Mock.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\bin\Debug\net6.0\Infrastructure.Repository.Mock.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\bin\Debug\net6.0\Infrastructure.Repository.Mock.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\bin\Debug\net6.0\ref\Infrastructure.Repository.Mock.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\bin\Debug\net6.0\Infrastructure.Repository.Mock.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\bin\Debug\net6.0\Domain.Entities.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\bin\Debug\net6.0\Domain.Services.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\bin\Debug\net6.0\Domain.Services.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\bin\Debug\net6.0\Domain.Entities.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.csproj.CopyComplete
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\ref\Infrastructure.Repository.Mock.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.Mock\obj\Debug\net6.0\Infrastructure.Repository.Mock.pdb

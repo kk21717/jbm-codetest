@@ -1,24 +1,23 @@
 ﻿using Domain.Entities;
 using Domain.Services;
 
-namespace Infrastructure.Repository.Mock
+namespace Infrastructure.Repository.Mock;
+
+public class MockRepository : IRepository
 {
-    public class MockRepository : IRepository
+    //implementing a fake dummy repository
+    private readonly List<Account> _accounts = new();
+    private int _lastId = 10;
+
+    Task<bool> IRepository.AccountExistsAsync(string phone)
     {
-        //implementing a fake dummy repository
-        List<Account> _accounts = new List<Account>();
-        int _lastId = 10; 
+        return Task.FromResult(_accounts.Any(a=>a.Phone == phone));
+    }
 
-        async Task<Boolean> IRepository.AccountExistsAsync(string phone)
-        {
-            return _accounts.Any(a=>a.Phone == phone);
-        }
-
-        async Task<int> IRepository.InsertAccountAsync(Account newAccount)
-        {
-            _accounts.Add(newAccount);
-            _lastId++;
-            return _lastId;
-        }
+    Task<int> IRepository.InsertAccountAsync(Account newAccount)
+    {
+        _accounts.Add(newAccount);
+        _lastId++;
+        return Task.FromResult(_lastId);
     }
 }

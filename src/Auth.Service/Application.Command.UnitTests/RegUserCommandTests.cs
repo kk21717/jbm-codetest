@@ -4,33 +4,32 @@ using Infrastructure.Repository.Mock;
 using NUnit.Framework;
 using System.Threading;
 
-namespace Application.Command.UnitTests
+namespace Application.Command.UnitTests;
+
+public class RegUserCommandTests
 {
-    public class RegUserCommandTests
+    private readonly RegUserCommandHandler _commandHandler = new(new MockRepository(), new MockEventBus());
+
+    [SetUp]
+    public void Setup()
     {
-        private RegUserCommandHandler _commandHandler;
+            
+    }
 
-        [SetUp]
-        public void Setup()
+    [Test]
+    public void ValidCommandInput()
+    {
+        var command = new RegUserCommand(new RegUserCommandInput
         {
-            _commandHandler  = new RegUserCommandHandler(new MockRepository(), new MockEventBus());
-        }
+            Phone = "+989121234567",
+            Email = "valid@email.com",
+            FirstName = "Kamran",
+            LastName = "Karami"
+        });
 
-        [Test]
-        public void Test1()
-        {
-            var command = new RegUserCommand(new RegUserCommandInput()
-            {
-                Phone = "+989121234567",
-                Email = "valid@email.com",
-                FirstName = "Kamran",
-                LastName = "Karami"
-            });
+        var cancellationToken = new CancellationToken();
+        _commandHandler.Handle(command, cancellationToken).GetAwaiter().GetResult();
 
-            var cancellationToken = new CancellationToken();
-            _commandHandler.Handle(command, cancellationToken).GetAwaiter().GetResult();
-
-            Assert.Pass();
-        }
+        Assert.Pass();
     }
 }

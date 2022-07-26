@@ -1009,6 +1009,19 @@
           "bin/placeholder/Application.Command.dll": {}
         }
       },
+      "Application.Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MediatR": "10.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Application.Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.Query.dll": {}
+        }
+      },
       "Domain.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3013,6 +3026,11 @@
       "path": "../Application.Command/Application.Command.csproj",
       "msbuildProject": "../Application.Command/Application.Command.csproj"
     },
+    "Application.Query/1.0.0": {
+      "type": "project",
+      "path": "../Application.Query/Application.Query.csproj",
+      "msbuildProject": "../Application.Query/Application.Query.csproj"
+    },
     "Domain.Entities/1.0.0": {
       "type": "project",
       "path": "../Domain.Entities/Domain.Entities.csproj",
@@ -3042,6 +3060,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application.Command >= 1.0.0",
+      "Application.Query >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Domain.Services >= 1.0.0",
       "Infrastructure.EventBus.RabbitMQ >= 1.0.0",
@@ -3060,19 +3079,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\k.karami\\.nuget\\packages\\": {}
+    "C:\\Users\\Kamran\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
+      "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
       "projectName": "Controller.Http.Rest",
-      "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
-      "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-      "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Controller.Http.Rest\\obj\\",
+      "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
+      "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+      "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Controller.Http.Rest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3080,24 +3099,26 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://192.168.72.17:8092/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj": {
-              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj"
+            "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj": {
+              "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj"
             },
-            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
-              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
+            "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Query\\Application.Query.csproj": {
+              "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Query\\Application.Query.csproj"
             },
-            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj": {
-              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj"
+            "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
+              "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
             },
-            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
-              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj"
+            "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj": {
+              "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj"
+            },
+            "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
+              "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj"
             }
           }
         }

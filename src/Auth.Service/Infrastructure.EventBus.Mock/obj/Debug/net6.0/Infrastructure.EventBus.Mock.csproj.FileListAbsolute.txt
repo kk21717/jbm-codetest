@@ -13,3 +13,18 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\D
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\ref\Infrastructure.EventBus.Mock.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Infrastructure.EventBus.Mock.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Infrastructure.EventBus.Mock.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\ref\Infrastructure.EventBus.Mock.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Infrastructure.EventBus.Mock.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.csproj.CopyComplete
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\ref\Infrastructure.EventBus.Mock.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.pdb

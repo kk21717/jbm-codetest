@@ -1,6 +1,4 @@
 using Application.Command;
-using Application.Command.RegisterUser;
-using AutoMapper;
 using Controller.Http.Rest.Middleware;
 using Domain.Services;
 using Infrastructure.EventBus.RabbitMQ;
@@ -10,6 +8,7 @@ using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Shared.Lib.EventBus;
 using System.Reflection;
+using Application.Query;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,8 +20,8 @@ builder.Services.AddOptions();
 //Add MediatR for implementing mediator pattern along CQRS
 builder.Services.AddMediatR(typeof(Program));
 builder.Services.AddMediatR(
-    Assembly.GetAssembly(typeof(BaseCommandHandler<,>)), 
-    Assembly.GetAssembly(typeof(BaseQueryHandler<,>)));
+    Assembly.GetAssembly(typeof(BaseCommandHandler<,>))!, 
+    Assembly.GetAssembly(typeof(BaseQueryHandler<,>))!);
 
 
 //Add SQLServerRepository implementation for IRepository
@@ -43,7 +42,7 @@ builder.Services.AddMassTransit(config => {
     });
 });
 
-//Add AutoMapperlibrary to avoid manually setting
+//Add AutoMapper library to avoid manually setting
 //fields with the same names in different models
 builder.Services.AddAutoMapper(typeof(Program));
 

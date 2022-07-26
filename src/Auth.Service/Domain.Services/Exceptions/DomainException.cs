@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
-namespace Domain.Services.Exceptions
+namespace Domain.Services.Exceptions;
+
+public class DomainException:Exception
 {
-    public class DomainException:Exception
-    {
-        public DomainException() : base() { }
+    public DomainException(){ }
 
-        public DomainException(string message, Exception innerException) : base(message, innerException) { }
+    public DomainException(string message, Exception innerException) : base(message, innerException) { }
         
-    }
 }

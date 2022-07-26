@@ -3,56 +3,55 @@ using Domain.Services.Exceptions;
 using Infrastructure.Repository.Mock;
 using NUnit.Framework;
 
-namespace Domain.Services.UnitTests
+namespace Domain.Services.UnitTests;
+
+public class RegisterAccountServiceTests
 {
-    public class RegisterAccountServiceTests
+    private readonly RegisterAccountService _service = new(new MockRepository());
+
+    [SetUp]
+    public void Setup()
     {
-        private RegisterAccountService _service;
+            
+    }
 
-        [SetUp]
-        public void Setup()
-        {
-            _service = new RegisterAccountService(new MockRepository());
-        }
+    [Test]
+    public void ValidInput()
+    {
+        var account = new Account("+989126164570", "kamran@gmail.com");
+        _service.RegisterAccountAsync(account).GetAwaiter().GetResult();
+        Assert.Pass();
+    }
 
-        [Test]
-        public void ValidInput()
-        {
-            var account = new Account("+989126164570", "kamran@gmail.com");
+    [Test]
+    public void InvalidPhone()
+    {
+        Assert.Throws<InvalidPhoneException>(delegate {
+            var account = new Account("some invalid phone", "valid@email.com");
             _service.RegisterAccountAsync(account).GetAwaiter().GetResult();
-            Assert.Pass();
-        }
+        });
+    }
 
-        [Test]
-        public void InvalidPhone()
-        {
-            Assert.Throws<InvalidPhoneException>(delegate {
-                var account = new Account("some invalid phone", "valid@email.com");
-                _service.RegisterAccountAsync(account).GetAwaiter().GetResult();
-            });
-        }
+    [Test]
+    public void InvalidEmail()
+    {
+        Assert.Throws<InvalidEmailException>(delegate {
+            var account = new Account("+989126453214", "some invalid email");
+            _service.RegisterAccountAsync(account).GetAwaiter().GetResult();
+        });
+    }
 
-        [Test]
-        public void InvalidEmail()
-        {
-            Assert.Throws<InvalidEmailException>(delegate {
-                var account = new Account("+989126453214", "some invalid email");
-                _service.RegisterAccountAsync(account).GetAwaiter().GetResult();
-            });
-        }
+    [Test]
+    public void DuplicatePhone()
+    {
+        Assert.Throws<DuplicatePhoneException>(delegate {
 
-        [Test]
-        public void DuplicatePhone()
-        {
-            Assert.Throws<DuplicatePhoneException>(delegate {
+            var account1 = new Account("+989126453214", "mail1@valid.com");
+            _service.RegisterAccountAsync(account1).GetAwaiter().GetResult();
 
-                var account1 = new Account("+989126453214", "mail1@valid.com");
-                _service.RegisterAccountAsync(account1).GetAwaiter().GetResult();
+            var account2 = new Account("+989126453214", "another@valid.com");
+            _service.RegisterAccountAsync(account2).GetAwaiter().GetResult();
 
-                var account2 = new Account("+989126453214", "another@valid.com");
-                _service.RegisterAccountAsync(account2).GetAwaiter().GetResult();
-
-            });
-        }
+        });
     }
 }

@@ -13,3 +13,18 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\o
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Shared.Lib.EventBus.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.csproj.CopyComplete
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\ref\Infrastructure.EventBus.RabbitMQ.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.csproj.CopyComplete
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\ref\Infrastructure.EventBus.RabbitMQ.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.pdb

@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Application.Command\Application.Command.csproj" />
+    <ProjectReference Include="..\Application.Query\Application.Query.csproj" />
     <ProjectReference Include="..\Domain.Services\Domain.Services.csproj" />
     <ProjectReference Include="..\Infrastructure.EventBus.RabbitMQ\Infrastructure.EventBus.RabbitMQ.csproj" />
     <ProjectReference Include="..\Infrastructure.Repository.SQLServer\Infrastructure.Repository.SQLServer.csproj" />

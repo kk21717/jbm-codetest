@@ -17,3 +17,22 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServe
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.pdb
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.runtimeconfig.json
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.genruntimeconfig.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.runtimeconfig.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\ref\Infrastructure.Repository.SQLServer.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Domain.Entities.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Domain.Services.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Domain.Services.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Domain.Entities.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.csproj.CopyComplete
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\ref\Infrastructure.Repository.SQLServer.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.genruntimeconfig.cache

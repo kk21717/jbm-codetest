@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1ZmqsWgJ4Xltsh0Tcqh6zouvzQoJmLzggGxvCnL1jRRpfQjFqTcP72W5tFbh+kdVBMTzZq1DmuNzRzYQlI9QWg==",
+  "dgSpecHash": "W9j3lSzpc3WiJUs7mv/nxzS0+L7is3hA2K1VvZB9inMRcwe8ltmoCcWHesD/OeNR/B73D1uXIAP8zddKErp7Dw==",
   "success": true,
   "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Query.UnitTest\\Application.Query.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kamran\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\Kamran\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
     "C:\\Users\\Kamran\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\Kamran\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\microsoft.net.test.sdk.16.11.0.nupkg.sha512",

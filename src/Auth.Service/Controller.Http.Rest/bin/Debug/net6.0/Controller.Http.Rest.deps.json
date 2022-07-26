@@ -9,6 +9,7 @@
       "Controller.Http.Rest/1.0.0": {
         "dependencies": {
           "Application.Command": "1.0.0",
+          "Application.Query": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Domain.Services": "1.0.0",
           "Infrastructure.EventBus.RabbitMQ": "1.0.0",
@@ -689,6 +690,14 @@
           "Application.Command.dll": {}
         }
       },
+      "Application.Query/1.0.0": {
+        "dependencies": {
+          "MediatR": "10.0.1"
+        },
+        "runtime": {
+          "Application.Query.dll": {}
+        }
+      },
       "Domain.Entities/1.0.0": {
         "runtime": {
           "Domain.Entities.dll": {}
@@ -1241,6 +1250,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "Application.Command/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Application.Query/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
