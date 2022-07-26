@@ -50,7 +50,37 @@
       "ProjectGuid": "aabdc3f8-8f22-4ff3-853b-b3b234d35536",
       "DisplayName": "Shared.EventBus",
       "ColorIndex": 8
+    },
+    "eabf00ec-2977-4e4a-b6db-495393a507c7": {
+      "ProjectGuid": "eabf00ec-2977-4e4a-b6db-495393a507c7",
+      "DisplayName": "Domain.Services.UnitTests",
+      "ColorIndex": 9
+    },
+    "7b6404bd-a6e7-4315-a8f6-9bfd45a93452": {
+      "ProjectGuid": "7b6404bd-a6e7-4315-a8f6-9bfd45a93452",
+      "DisplayName": "Infrastructure.Repository.Mock",
+      "ColorIndex": 10
+    },
+    "5e538883-c9d1-4538-8130-74af50d7fa92": {
+      "ProjectGuid": "5e538883-c9d1-4538-8130-74af50d7fa92",
+      "DisplayName": "Infrastructure.EventBus.Mock",
+      "ColorIndex": 11
+    },
+    "d29de2f5-6a9c-49da-ae84-c2b43bc4c09f": {
+      "ProjectGuid": "d29de2f5-6a9c-49da-ae84-c2b43bc4c09f",
+      "DisplayName": "Infrastructure.EventBus.Mock",
+      "ColorIndex": 12
+    },
+    "0e36e781-1bba-4113-8e5a-ee42ead1db58": {
+      "ProjectGuid": "0e36e781-1bba-4113-8e5a-ee42ead1db58",
+      "DisplayName": "Application.Command.UnitTests",
+      "ColorIndex": 13
+    },
+    "46aec509-0de3-4499-b42c-6fceef6adf0f": {
+      "ProjectGuid": "46aec509-0de3-4499-b42c-6fceef6adf0f",
+      "DisplayName": "Application.Query.UnitTest",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 15
 }
