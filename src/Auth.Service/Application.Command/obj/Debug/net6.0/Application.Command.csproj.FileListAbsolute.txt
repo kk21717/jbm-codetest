@@ -15,3 +15,5 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6
 C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\ref\Application.Command.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\obj\Debug\net6.0\Application.Command.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Command\bin\Debug\net6.0\Shared.Lib.EventBus.pdb

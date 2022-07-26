@@ -70,6 +70,16 @@
         "runtime": {
           "bin/placeholder/Domain.Services.dll": {}
         }
+      },
+      "Shared.Lib.EventBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.Lib.EventBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Lib.EventBus.dll": {}
+        }
       }
     }
   },
@@ -151,13 +161,19 @@
       "type": "project",
       "path": "../Domain.Services/Domain.Services.csproj",
       "msbuildProject": "../Domain.Services/Domain.Services.csproj"
+    },
+    "Shared.Lib.EventBus/1.0.0": {
+      "type": "project",
+      "path": "../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj",
+      "msbuildProject": "../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Domain.Services >= 1.0.0",
       "MediatR >= 10.0.1",
-      "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1"
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 10.0.1",
+      "Shared.Lib.EventBus >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -190,6 +206,9 @@
           "projectReferences": {
             "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
               "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
+            },
+            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
             }
           }
         }

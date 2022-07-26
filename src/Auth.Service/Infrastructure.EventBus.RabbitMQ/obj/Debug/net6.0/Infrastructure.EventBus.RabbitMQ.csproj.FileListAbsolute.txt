@@ -1,0 +1,15 @@
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.deps.json
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\ref\Infrastructure.EventBus.RabbitMQ.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\ref\Infrastructure.EventBus.RabbitMQ.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.RabbitMQ\obj\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.csproj.CopyComplete

@@ -15,3 +15,5 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServe
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\ref\Infrastructure.Repository.SQLServer.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\bin\Debug\net6.0\Infrastructure.Repository.SQLServer.runtimeconfig.json
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.Repository.SQLServer\obj\Debug\net6.0\Infrastructure.Repository.SQLServer.genruntimeconfig.cache

@@ -1,7 +1,9 @@
 ﻿
+using Application.Command.Events;
 using Domain.Entities;
 using Domain.Services;
 using MediatR;
+using Shared.Lib.EventBus;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,16 +29,16 @@ namespace Application.Command.RegisterUser
         //public RegUserCommandHandler() { } // => _fakeDataStore = fakeDataStore;
 
         readonly IRepository _repository;
-        //readonly IEventBus _eventBus;
+        readonly IEventBus _eventBus;
         //readonly IPublishEndpoint _publishEvent;
 
         public RegUserCommandHandler(IRepository repository
-            //, IEventBus eventBus
+            , IEventBus eventBus
             //, IPublishEndpoint publishEvent
             )
         {
             _repository = repository;
-            //_eventBus = eventBus;
+            _eventBus = eventBus;
             //_publishEvent = publishEvent;
         }
 
@@ -55,13 +57,14 @@ namespace Application.Command.RegisterUser
             //await domainService.RegisterAccountAsync(new Account("", ""));
 
             //account registered successfully
-            //push event to be consumed by consumers ( e.g. UserService )
-            //_eventBus.pushAccountRegisteredEvent(new Event.AccountRegisteredEvent()
-            //{
-            //    UserID = repoUserId,
-            //    FirstName = input.FirstName,
-            //    LastName = input.LastName
-            //});
+            //push event to eventbus be consumed by exchange subscribers ( e.g. UserService )
+            var regEvent = new AccountRegisteredEvent(
+                    phone: request.Input.Phone,
+                    email: request.Input.Email,
+                    firstName: request.Input.FirstName,
+                    lastName: request.Input.LastName
+                );
+            await _eventBus.publishEventAsync<AccountRegisteredEvent>(regEvent);
 
             return Unit.Value;
         }

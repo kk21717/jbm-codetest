@@ -10,7 +10,8 @@
         "dependencies": {
           "Domain.Services": "1.0.0",
           "MediatR": "10.0.1",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1"
+          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
+          "Shared.Lib.EventBus": "1.0.0"
         },
         "runtime": {
           "Application.Command.dll": {}
@@ -67,6 +68,11 @@
         "runtime": {
           "Domain.Services.dll": {}
         }
+      },
+      "Shared.Lib.EventBus/1.0.0": {
+        "runtime": {
+          "Shared.Lib.EventBus.dll": {}
+        }
       }
     }
   },
@@ -110,6 +116,11 @@
       "sha512": ""
     },
     "Domain.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shared.Lib.EventBus/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -5,15 +5,19 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controller.Http.Rest", "Controller.Http.Rest\Controller.Http.Rest.csproj", "{C04774B1-6E6E-48D4-AF89-1D47A157F631}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Services", "Domain.Services\Domain.Services.csproj", "{AE14C790-EB21-4492-898D-2F790343452D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Services", "Domain.Services\Domain.Services.csproj", "{AE14C790-EB21-4492-898D-2F790343452D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{EE89F531-45FD-471E-9DBD-237980D5C15D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Entities", "Domain.Entities\Domain.Entities.csproj", "{EE89F531-45FD-471E-9DBD-237980D5C15D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Command", "Application.Command\Application.Command.csproj", "{1EBA555D-AC6C-400B-B2A0-19FB95461576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Command", "Application.Command\Application.Command.csproj", "{1EBA555D-AC6C-400B-B2A0-19FB95461576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Query", "Application.Query\Application.Query.csproj", "{CA7AEE09-A809-4078-87FB-81E12D85DAEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Query", "Application.Query\Application.Query.csproj", "{CA7AEE09-A809-4078-87FB-81E12D85DAEF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Repository.SQLServer", "Infrastructure.Repository.SQLServer\Infrastructure.Repository.SQLServer.csproj", "{221230F0-0DEF-432F-BDD0-4CE8256F9400}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Repository.SQLServer", "Infrastructure.Repository.SQLServer\Infrastructure.Repository.SQLServer.csproj", "{221230F0-0DEF-432F-BDD0-4CE8256F9400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.EventBus.RabbitMQ", "Infrastructure.EventBus.RabbitMQ\Infrastructure.EventBus.RabbitMQ.csproj", "{A587EE39-E164-4537-896F-98C4CCDCF953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Lib.EventBus", "Shared.Lib.EventBus\Shared.Lib.EventBus.csproj", "{AABDC3F8-8F22-4FF3-853B-B3B234D35536}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{221230F0-0DEF-432F-BDD0-4CE8256F9400}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221230F0-0DEF-432F-BDD0-4CE8256F9400}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{221230F0-0DEF-432F-BDD0-4CE8256F9400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A587EE39-E164-4537-896F-98C4CCDCF953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A587EE39-E164-4537-896F-98C4CCDCF953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A587EE39-E164-4537-896F-98C4CCDCF953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A587EE39-E164-4537-896F-98C4CCDCF953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABDC3F8-8F22-4FF3-853B-B3B234D35536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABDC3F8-8F22-4FF3-853B-B3B234D35536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABDC3F8-8F22-4FF3-853B-B3B234D35536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABDC3F8-8F22-4FF3-853B-B3B234D35536}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

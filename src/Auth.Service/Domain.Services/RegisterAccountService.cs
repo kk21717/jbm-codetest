@@ -30,9 +30,10 @@ namespace Domain.Services
             if (string.IsNullOrEmpty(input.Email) || !validateEmailRegex.IsMatch(input.Email))
                 throw new InvalidEmailException();
 
+            //validate phone uniqueness
+            
             try
             {
-                //validate phone uniqueness
                 if (await _repository.AccountExistsAsync(input.Phone))
                     throw new DuplicatePhoneException();
 
@@ -40,7 +41,10 @@ namespace Domain.Services
             }
             catch (Exception ex)
             {
-                throw new RepositorayFailedException(nameof(RepositorayFailedException), ex);
+                if (ex is DuplicatePhoneException)
+                    throw;
+
+                throw new RepositorayFailedException($"{nameof(RepositorayFailedException)} : {ex.Message}" , ex);
             }
             
             return;
