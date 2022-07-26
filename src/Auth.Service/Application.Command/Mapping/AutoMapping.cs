@@ -31,7 +31,7 @@ namespace Application.Command.Mapping
         {
             CreateMap<RegUserCommandInput, AccountRegisteredEvent>();
             CreateMap<RegUserCommandInput, Account>();
-            // Additional mappings here...
+            
         }
     }
 

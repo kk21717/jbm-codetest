@@ -17,7 +17,6 @@ namespace Domain.Services
         {
             _repository = repository;
         }
-
         public async Task RegisterAccountAsync(Account input)
         {
             //validate phone format
@@ -30,10 +29,9 @@ namespace Domain.Services
             if (string.IsNullOrEmpty(input.Email) || !validateEmailRegex.IsMatch(input.Email))
                 throw new InvalidEmailException();
 
-            //validate phone uniqueness
-            
             try
             {
+                //validate phone uniqueness
                 if (await _repository.AccountExistsAsync(input.Phone))
                     throw new DuplicatePhoneException();
 

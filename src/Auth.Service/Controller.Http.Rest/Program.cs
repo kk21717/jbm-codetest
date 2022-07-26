@@ -18,32 +18,33 @@ var builder = WebApplication.CreateBuilder(args);
 //Configuration
 builder.Services.AddOptions();
 
+//Add MediatR for implementing mediator pattern along CQRS
 builder.Services.AddMediatR(typeof(Program));
-builder.Services.AddMediatR(Assembly.GetAssembly(typeof(BaseCommandHandler<,>))
-        //, Assembly.GetAssembly(typeof(BaseQueryHandler<,>))
-    );
+builder.Services.AddMediatR(
+    Assembly.GetAssembly(typeof(BaseCommandHandler<,>)), 
+    Assembly.GetAssembly(typeof(BaseQueryHandler<,>)));
 
 
-// Add SQLServerRepository implementation for IRepository
+//Add SQLServerRepository implementation for IRepository
 builder.Services.AddScoped<IRepository, SQLServerRepository>();
-//builder.Services.Configure<SQLServerRepositoryOptions>(
-//    builder.Configuration.GetSection("SQLServerRepositoryOptions"));
 builder.Services.AddDbContext<SQLServerDBContext>(o =>{
-    o.UseSqlServer(builder.Configuration.GetValue<string>("SQLServerRepositoryOptions:ConnectionString"));
+    o.UseSqlServer(builder.Configuration.GetValue<string>(
+        "SQLServerRepositoryOptions:ConnectionString"));
 });
 
 
+//Add RabbitMq as the EventBusProvider 
 builder.Services.AddScoped<IEventBus, RabbitEventBus>();
-//builder.Services.Configure<SQLServerRepositoryOptions>(
-//    builder.Configuration.GetSection("SQLServerRepositoryOptions"));
-
-// MassTransit-RabbitMQ Configuration
+//MassTransit-RabbitMQ Configuration
 builder.Services.AddMassTransit(config => {
     config.UsingRabbitMq((ctx, cfg) => {
-        cfg.Host(builder.Configuration.GetValue<string>("RabbitEventBusOptions:HostAddress"));
+        cfg.Host(builder.Configuration.GetValue<string>(
+            "RabbitEventBusOptions:HostAddress"));
     });
 });
 
+//Add AutoMapperlibrary to avoid manually setting
+//fields with the same names in different models
 builder.Services.AddAutoMapper(typeof(Program));
 
 
@@ -54,6 +55,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+//Add a custom middleware for converting domain- and
+//application- exceptions to standard rest http response codes
 app.UseMiddleware<ApiExceptionHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.

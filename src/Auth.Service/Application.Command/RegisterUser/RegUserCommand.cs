@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Application.Command.RegisterUser
 {
-    //
+    
     public class RegUserCommand : BaseCommand<Unit> 
     {
         public RegUserCommandInput Input { get; }
@@ -44,10 +44,10 @@ namespace Application.Command.RegisterUser
 
             var account = AutoMapping.Mapper.Map<Account>(request.Input);
             await domainService.RegisterAccountAsync(account);
-            //await domainService.RegisterAccountAsync(new Account("", ""));
+            
 
             //account registered successfully
-            //push event to eventbus be consumed by exchange subscribers ( e.g. UserService )
+            //push event to eventbus to be consumed by exchange subscribers ( e.g. UserService )
             var regEvent = AutoMapping.Mapper.Map<AccountRegisteredEvent>(request.Input);
             await _eventBus.publishEventAsync<AccountRegisteredEvent>(regEvent);
 

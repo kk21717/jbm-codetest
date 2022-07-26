@@ -18,7 +18,5 @@ namespace Infrastructure.Repository.SQLServer
             Database.EnsureCreated();
         }
 
-
-
     }
 }

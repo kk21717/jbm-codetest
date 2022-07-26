@@ -11,7 +11,6 @@ namespace Infrastructure.EventBus.RabbitMQ
         {
             _publishEndpoint = publishEndpoint;
         }
-
         async Task IEventBus.publishEventAsync<T>(T evn)
         {
             await _publishEndpoint.Publish<T>(evn);

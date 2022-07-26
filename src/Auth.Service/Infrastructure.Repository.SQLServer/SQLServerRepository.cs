@@ -13,7 +13,6 @@ namespace Infrastructure.Repository.SQLServer
         {
             _options = options;
         }
-
         async Task<Boolean> IRepository.AccountExistsAsync(string phone)
         {
             using (var context = new SQLServerDBContext(_options))
@@ -24,7 +23,6 @@ namespace Infrastructure.Repository.SQLServer
 
         async Task<int> IRepository.InsertAccountAsync(Account newAccount)
         {
-            
             using (var context = new SQLServerDBContext(_options))
             {
                 var dbEntity = new Entities.Account()

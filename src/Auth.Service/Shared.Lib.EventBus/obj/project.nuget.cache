@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k5Y4J67lHP9ZxoGAdjgMOFtWEQj3pTFPzDG2mgAT9Nt6TM0DYtt1ps+wglJzgn/G5I2kzfoGtjsW6+C5avSIKA==",
+  "dgSpecHash": "uIYiKkqkdNTVxOs4Ubn2wQWCsOhvE1QSbvIYiXL23cOnkhPeaoElG2J35ValtJSXW2wActZ0D7pfeecrb8UUbA==",
   "success": true,
-  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

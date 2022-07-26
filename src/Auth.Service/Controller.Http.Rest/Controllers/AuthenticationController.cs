@@ -15,28 +15,13 @@ namespace Controller.Http.Rest.Controllers
     [Route("[controller]")]
     public class AuthenticationController : ControllerBase
     {
-        //private readonly ILogger<AuthenticationController> _logger;
-        //private readonly IRepository _repository;
         private readonly ISender _mediatorSender;
-        //private readonly IPublishEndpoint _publishEndpoint;
-        //private readonly IEventBus _eventBus;
-        //private readonly IMapper _mapper;
 
         public AuthenticationController(
-            //ILogger<AuthenticationController> logger
-            //,IRepository repository
             ISender mediatorSender
-            //,IPublishEndpoint publishEndpoint
-            //,IEventBus eventBus
-            //,IMapper mapper
             )
         {
-            //_logger = logger;
-            //_repository = repository;
-            //_publishEndpoint = publishEndpoint;
             _mediatorSender = mediatorSender;
-            //_eventBus = eventBus;
-            //_mapper = mapper;
         }
 
         [HttpPost()]

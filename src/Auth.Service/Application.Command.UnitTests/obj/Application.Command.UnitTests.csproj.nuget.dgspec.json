@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj": {}
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj",
         "projectName": "Application.Command.UnitTests",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,21 +22,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj"
               }
             }
           }
@@ -87,17 +86,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj",
         "projectName": "Application.Command",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command\\Application.Command.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Application.Command\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -105,18 +104,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
               }
             }
           }
@@ -163,17 +161,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj",
         "projectName": "Domain.Entities",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -181,7 +179,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -218,17 +215,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj",
         "projectName": "Domain.Services",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -236,15 +233,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj"
               }
             }
           }
@@ -277,17 +273,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
         "projectName": "Infrastructure.EventBus.Mock",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -295,15 +291,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
               }
             }
           }
@@ -336,17 +331,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj",
         "projectName": "Infrastructure.Repository.Mock",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -354,15 +349,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
               }
             }
           }
@@ -395,17 +389,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
         "projectName": "Shared.Lib.EventBus",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -413,7 +407,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
