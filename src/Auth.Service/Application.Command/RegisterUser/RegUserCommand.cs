@@ -1,5 +1,7 @@
 ﻿
 using Application.Command.Events;
+using Application.Command.Mapping;
+using AutoMapper;
 using Domain.Entities;
 using Domain.Services;
 using MediatR;
@@ -26,44 +28,33 @@ namespace Application.Command.RegisterUser
     public class RegUserCommandHandler : BaseCommandHandler<RegUserCommand, Unit>
     {
 
-        //public RegUserCommandHandler() { } // => _fakeDataStore = fakeDataStore;
 
         readonly IRepository _repository;
         readonly IEventBus _eventBus;
-        //readonly IPublishEndpoint _publishEvent;
 
         public RegUserCommandHandler(IRepository repository
             , IEventBus eventBus
-            //, IPublishEndpoint publishEvent
             )
         {
             _repository = repository;
             _eventBus = eventBus;
-            //_publishEvent = publishEvent;
         }
-
-        //public async Task<Unit> Handle(RegUserCommand request, CancellationToken cancellationToken)
-        //{
-            
-        //}
 
         public override async Task<Unit> Handle(RegUserCommand request, CancellationToken cancellationToken)
         {
+            
+
             var domainService = new RegisterAccountService(_repository
                 //,_eventBus
                 );
 
-            await domainService.RegisterAccountAsync(new Account(request.Input.Phone, request.Input.Email));
+            var account = AutoMapping.Mapper.Map<Account>(request.Input);
+            await domainService.RegisterAccountAsync(account);
             //await domainService.RegisterAccountAsync(new Account("", ""));
 
             //account registered successfully
             //push event to eventbus be consumed by exchange subscribers ( e.g. UserService )
-            var regEvent = new AccountRegisteredEvent(
-                    phone: request.Input.Phone,
-                    email: request.Input.Email,
-                    firstName: request.Input.FirstName,
-                    lastName: request.Input.LastName
-                );
+            var regEvent = AutoMapping.Mapper.Map<AccountRegisteredEvent>(request.Input);
             await _eventBus.publishEventAsync<AccountRegisteredEvent>(regEvent);
 
             return Unit.Value;

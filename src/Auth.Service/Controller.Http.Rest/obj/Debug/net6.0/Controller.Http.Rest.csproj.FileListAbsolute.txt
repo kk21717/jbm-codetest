@@ -82,3 +82,5 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Controller.Http.Rest\bin\Debug\net
 C:\Karami\other\jbm-codetest\src\Auth.Service\Controller.Http.Rest\bin\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Controller.Http.Rest\bin\Debug\net6.0\Infrastructure.EventBus.RabbitMQ.pdb
 C:\Karami\other\jbm-codetest\src\Auth.Service\Controller.Http.Rest\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Controller.Http.Rest\bin\Debug\net6.0\AutoMapper.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Controller.Http.Rest\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -27,17 +27,16 @@ namespace Infrastructure.Repository.SQLServer
             
             using (var context = new SQLServerDBContext(_options))
             {
-
-                var obj = new Entities.Account()
+                var dbEntity = new Entities.Account()
                 {
                     Phone = newAccount.Phone,
                     Email = newAccount.Email
                 };
 
-                context.Accounts.Add(obj);
+                context.Accounts.Add(dbEntity);
                 await context.SaveChangesAsync();
 
-                return obj.Id;
+                return dbEntity.Id;
             }
         }
     }

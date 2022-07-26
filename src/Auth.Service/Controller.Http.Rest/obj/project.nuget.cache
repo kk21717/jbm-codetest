@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nJubF6M8MLcLxkFKjw2YnoD4opppuvPFzr9wo7Bgyu7Ve5vEBIwrUfNaiB3LNOI45WQRSTP/MOrNLyj6j3lcWg==",
+  "dgSpecHash": "yeIhXhJDLQuzDYELKbquK2JoTFgXHwdSdu0PbbeVDAuDhnhSYxYMZHH5c8jVS00sHC8npvJ0XMHxI6GGfsBAlg==",
   "success": true,
   "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\k.karami\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\k.karami\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\k.karami\\.nuget\\packages\\masstransit\\8.0.5\\masstransit.8.0.5.nupkg.sha512",
     "C:\\Users\\k.karami\\.nuget\\packages\\masstransit.abstractions\\8.0.5\\masstransit.abstractions.8.0.5.nupkg.sha512",
@@ -13,7 +15,7 @@
     "C:\\Users\\k.karami\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\k.karami\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\k.karami\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.7\\microsoft.entityframeworkcore.6.0.7.nupkg.sha512",

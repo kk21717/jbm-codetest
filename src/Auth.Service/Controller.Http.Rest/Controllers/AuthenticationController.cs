@@ -1,6 +1,8 @@
 
 using Application.Command.Events;
 using Application.Command.RegisterUser;
+using AutoMapper;
+using Domain.Entities;
 using Domain.Services;
 using MassTransit;
 using MediatR;
@@ -18,6 +20,7 @@ namespace Controller.Http.Rest.Controllers
         private readonly ISender _mediatorSender;
         private readonly IPublishEndpoint _publishEndpoint;
         private readonly IEventBus _eventBus;
+        private readonly IMapper _mapper;
 
         public AuthenticationController(
             ILogger<AuthenticationController> logger
@@ -25,6 +28,7 @@ namespace Controller.Http.Rest.Controllers
             ,ISender mediatorSender
             ,IPublishEndpoint publishEndpoint
             ,IEventBus eventBus
+            ,IMapper mapper
             )
         {
             _logger = logger;
@@ -32,11 +36,15 @@ namespace Controller.Http.Rest.Controllers
             _publishEndpoint = publishEndpoint;
             _mediatorSender = mediatorSender;
             _eventBus = eventBus;
+            _mapper = mapper;
         }
 
         [HttpPost()]
         public async Task<ActionResult> RegisterAccountAsync(RegUserCommandInput input)
         {
+
+
+
             await _mediatorSender.Send(new RegUserCommand(input));
 
             return Ok();

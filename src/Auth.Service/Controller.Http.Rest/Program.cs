@@ -1,5 +1,6 @@
 using Application.Command;
 using Application.Command.RegisterUser;
+using AutoMapper;
 using Controller.Http.Rest.Middleware;
 using Domain.Services;
 using Infrastructure.EventBus.RabbitMQ;
@@ -42,6 +43,9 @@ builder.Services.AddMassTransit(config => {
         cfg.Host(builder.Configuration.GetValue<string>("RabbitEventBusOptions:HostAddress"));
     });
 });
+
+builder.Services.AddAutoMapper(typeof(Program));
+
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
