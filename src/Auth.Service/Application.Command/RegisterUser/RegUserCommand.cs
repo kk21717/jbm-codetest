@@ -27,8 +27,6 @@ namespace Application.Command.RegisterUser
 
     public class RegUserCommandHandler : BaseCommandHandler<RegUserCommand, Unit>
     {
-
-
         readonly IRepository _repository;
         readonly IEventBus _eventBus;
 
@@ -42,11 +40,7 @@ namespace Application.Command.RegisterUser
 
         public override async Task<Unit> Handle(RegUserCommand request, CancellationToken cancellationToken)
         {
-            
-
-            var domainService = new RegisterAccountService(_repository
-                //,_eventBus
-                );
+            var domainService = new RegisterAccountService(_repository);
 
             var account = AutoMapping.Mapper.Map<Account>(request.Input);
             await domainService.RegisterAccountAsync(account);

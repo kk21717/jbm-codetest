@@ -9,4 +9,3 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\D
 C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\ref\Domain.Entities.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.pdb
-C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.csproj.AssemblyReference.cache

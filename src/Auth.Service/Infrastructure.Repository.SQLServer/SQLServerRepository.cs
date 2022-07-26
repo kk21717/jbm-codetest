@@ -7,7 +7,7 @@ namespace Infrastructure.Repository.SQLServer
 {
     public class SQLServerRepository : IRepository
     {
-        readonly DbContextOptions<SQLServerDBContext> _options;
+        private readonly DbContextOptions<SQLServerDBContext> _options;
 
         public SQLServerRepository(DbContextOptions<SQLServerDBContext> options)
         {

@@ -9,3 +9,4 @@ C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6
 C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\ref\Shared.Lib.EventBus.dll
 C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.AssemblyReference.cache

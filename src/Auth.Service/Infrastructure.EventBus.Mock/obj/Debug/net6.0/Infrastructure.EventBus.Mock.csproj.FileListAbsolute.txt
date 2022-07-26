@@ -1,0 +1,15 @@
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Infrastructure.EventBus.Mock.deps.json
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Infrastructure.EventBus.Mock.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\ref\Infrastructure.EventBus.Mock.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Infrastructure.EventBus.Mock.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.csproj.CopyComplete
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\ref\Infrastructure.EventBus.Mock.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Infrastructure.EventBus.Mock\obj\Debug\net6.0\Infrastructure.EventBus.Mock.pdb

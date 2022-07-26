@@ -35,7 +35,22 @@
       "ProjectGuid": "c04774b1-6e6e-48d4-af89-1d47a157f631",
       "DisplayName": "Controller.Http.Rest",
       "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a587ee39-e164-4537-896f-98c4ccdcf953": {
+      "ProjectGuid": "a587ee39-e164-4537-896f-98c4ccdcf953",
+      "DisplayName": "Infrastructure.EventBus.RabbitMQ",
+      "ColorIndex": 7
+    },
+    "aabdc3f8-8f22-4ff3-853b-b3b234d35536": {
+      "ProjectGuid": "aabdc3f8-8f22-4ff3-853b-b3b234d35536",
+      "DisplayName": "Shared.EventBus",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

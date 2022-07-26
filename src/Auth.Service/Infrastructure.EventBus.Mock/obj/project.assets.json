@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Shared.Lib.EventBus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shared.Lib.EventBus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shared.Lib.EventBus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shared.Lib.EventBus/1.0.0": {
+      "type": "project",
+      "path": "../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj",
+      "msbuildProject": "../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Shared.Lib.EventBus >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\k.karami\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
+      "projectName": "Infrastructure.EventBus.Mock",
+      "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
+      "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
+      "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.72.17:8092/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
