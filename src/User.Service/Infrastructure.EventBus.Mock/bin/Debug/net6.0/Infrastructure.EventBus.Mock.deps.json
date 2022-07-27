@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Infrastructure.EventBus.Mock/1.0.0": {
+        "dependencies": {
+          "Shared.Lib.EventBus": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.EventBus.Mock.dll": {}
+        }
+      },
+      "Shared.Lib.EventBus/1.0.0": {
+        "runtime": {
+          "Shared.Lib.EventBus.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infrastructure.EventBus.Mock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shared.Lib.EventBus/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,36 @@
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\Application.Query.deps.json
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\ref\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\Application.Query.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\ref\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\ref\Application.Query.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\Application.Query.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\Application.Query.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\ref\Application.Query.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\Application.Query.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\bin\Debug\net6.0\Application.Query.deps.json
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\bin\Debug\net6.0\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\bin\Debug\net6.0\ref\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\bin\Debug\net6.0\Application.Query.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\ref\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.pdb

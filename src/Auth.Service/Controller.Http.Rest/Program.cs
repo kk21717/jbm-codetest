@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Shared.Lib.EventBus;
 using System.Reflection;
 using Application.Query;
+using RabbitMQ.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,18 +28,19 @@ builder.Services.AddMediatR(
 //Add SQLServerRepository implementation for IRepository
 builder.Services.AddScoped<IRepository, SQLServerRepository>();
 builder.Services.AddDbContext<SQLServerDBContext>(o =>{
-    o.UseSqlServer(builder.Configuration.GetValue<string>(
-        "SQLServerRepositoryOptions:ConnectionString"));
+    o.UseSqlServer(builder.Configuration["SQLServerRepositoryOptions:ConnectionString"]);
 });
 
 
 //Add RabbitMq as the EventBusProvider 
 builder.Services.AddScoped<IEventBus, RabbitEventBus>();
 //MassTransit-RabbitMQ Configuration
-builder.Services.AddMassTransit(config => {
-    config.UsingRabbitMq((ctx, cfg) => {
-        cfg.Host(builder.Configuration.GetValue<string>(
-            "RabbitEventBusOptions:HostAddress"));
+builder.Services.AddMassTransit(config =>
+{
+    config.UsingRabbitMq((ctx, cfg) =>
+    {
+        cfg.Host(builder.Configuration["RabbitEventBusOptions:HostAddress"]);
+        
     });
 });
 

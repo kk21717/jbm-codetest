@@ -1899,19 +1899,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kamran\\.nuget\\packages\\": {}
+    "C:\\Users\\k.karami\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
+      "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
       "projectName": "Infrastructure.Repository.SQLServer",
-      "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
-      "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\obj\\",
+      "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
+      "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
+      "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.SQLServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1919,14 +1919,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.72.17:8092/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
-              "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
+            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
+              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
             }
           }
         }

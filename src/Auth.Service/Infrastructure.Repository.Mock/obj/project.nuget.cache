@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QhO55BJflghi40AJMFGhrqgh+zO+Nj/zQEPUzouDwtTwPuNsBdE232vLpBrP245FlU55VClmdy1JsokeTn3Xeg==",
+  "dgSpecHash": "/Kdt6JStoZU5RRfpKL1N3JasBGu1Ke6hM3M3VrBP9tMG7OWYBW/kwm7wOE6biCjI279Eag3GAML0N45IaW+NrA==",
   "success": true,
-  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj",
+  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

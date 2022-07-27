@@ -172,3 +172,5 @@ C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Controller.Http
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Controller.Http.Rest\obj\Debug\net6.0\scopedcss\bundle\Controller.Http.Rest.styles.css
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.csproj.CopyComplete
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.genruntimeconfig.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Controller.Http.Rest\bin\Debug\net6.0\Application.Query.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Controller.Http.Rest\bin\Debug\net6.0\Application.Query.pdb

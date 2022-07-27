@@ -1,0 +1,36 @@
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.deps.json
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\bin\Debug\net6.0\ref\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\ref\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\bin\Debug\net6.0\ref\Domain.Entities.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\ref\Domain.Entities.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.deps.json
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\bin\Debug\net6.0\ref\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\obj\Debug\net6.0\ref\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Domain.Entities\obj\Debug\net6.0\Domain.Entities.pdb

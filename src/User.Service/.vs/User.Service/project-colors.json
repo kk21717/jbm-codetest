@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2112f666-69cd-4393-a6bb-ce72787de26d": {
+      "ProjectGuid": "2112f666-69cd-4393-a6bb-ce72787de26d",
+      "DisplayName": "Controller.Worker",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

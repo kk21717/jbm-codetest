@@ -21,6 +21,13 @@ public class AuthenticationController : ControllerBase
     [HttpPost]
     public async Task<ActionResult> RegisterAccountAsync(RegUserCommandInput input)
     {
+        input = new RegUserCommandInput()
+        {
+            Email = "test@test.com",
+            Phone = "+98912" + new Random().Next(1000000, 9999999),
+            FirstName = "kamran",
+            LastName = "karami"
+        };
         await _mediatorSender.Send(new RegUserCommand(input));
         return Ok();
     }

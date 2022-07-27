@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2lafsVXB6gmPJ0G/QlXHvKD12XOQHClK68qTqfTyXlZfDHQtvvU14aXGIAcvZ7kFemePTtKKwD11XS1NRYFsKw==",
+  "success": true,
+  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\k.karami\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\k.karami\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Infrastructure.Repository.Mock/1.0.0": {
+        "dependencies": {
+          "Domain.Services": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.Repository.Mock.dll": {}
+        }
+      },
+      "Domain.Entities/1.0.0": {
+        "runtime": {
+          "Domain.Entities.dll": {}
+        }
+      },
+      "Domain.Services/1.0.0": {
+        "dependencies": {
+          "Domain.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Domain.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Infrastructure.Repository.Mock/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

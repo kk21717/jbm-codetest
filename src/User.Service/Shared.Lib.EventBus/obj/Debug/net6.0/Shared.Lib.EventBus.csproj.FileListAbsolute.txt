@@ -1,0 +1,36 @@
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.deps.json
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\bin\Debug\net6.0\ref\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\ref\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\bin\Debug\net6.0\ref\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\ref\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.deps.json
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\bin\Debug\net6.0\ref\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.AssemblyInfoInputs.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.AssemblyInfo.cs
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.CoreCompileInputs.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\obj\Debug\net6.0\ref\Shared.Lib.EventBus.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.pdb

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {}
+    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {}
   },
   "projects": {
-    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
         "projectName": "Shared.Lib.EventBus",
-        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
-        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\obj\\",
+        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
+        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
