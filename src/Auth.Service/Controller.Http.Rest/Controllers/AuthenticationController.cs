@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Controller.Http.Rest.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("auth-service")]
 public class AuthenticationController : ControllerBase
 {
     private readonly ISender _mediatorSender;
@@ -19,6 +19,7 @@ public class AuthenticationController : ControllerBase
     }
 
     [HttpPost]
+    [Route("reg-account")]
     public async Task<ActionResult> RegisterAccountAsync(RegUserCommandInput input)
     {
         input = new RegUserCommandInput()
