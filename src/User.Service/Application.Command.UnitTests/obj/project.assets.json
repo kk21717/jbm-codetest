@@ -4188,8 +4188,8 @@
     },
     "Shared.Lib.EventBus/1.0.0": {
       "type": "project",
-      "path": "../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj",
-      "msbuildProject": "../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj"
+      "path": "../../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj",
+      "msbuildProject": "../../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj"
     }
   },
   "projectFileDependencyGroups": {

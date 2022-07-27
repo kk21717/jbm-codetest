@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jpMZmJN5PAWHpMVg6tr5Qf+V1uTEh1OxMlSY78YGDYfDs3duVASV1+WSvdnhuG3/7XkAYDuUJXgf+o5JqLsRAQ==",
+  "dgSpecHash": "2xx79bzfy5YroVrbd/sMK2nxpufkoeCgFulQgqT9qhvrKg2tFLHRK4hgmpcEPAhjG2JO8u3AUJu0XNZTjJfaYA==",
   "success": true,
   "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Command.UnitTests\\Application.Command.UnitTests.csproj",
   "expectedPackageFiles": [

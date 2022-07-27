@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Rj7sno7J21ZhaRffKgfhsDGd976oPQy5MTjFfLTtZimE1NNf/yJA5jDPdqbfg6jpOMKsLXku0CeBfghqlQsD7g==",
+  "dgSpecHash": "BNqn0u6hxWiJFzfaSAqVZ4cpcpMVdFkL4nDCmexCtGOU3YIlPLuVnHuqP3Sy0MHuQ3QdsNWVqvOG06yl0soJgA==",
   "success": true,
   "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj",
   "expectedPackageFiles": [

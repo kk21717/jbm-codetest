@@ -407,8 +407,8 @@
     },
     "Shared.Lib.EventBus/1.0.0": {
       "type": "project",
-      "path": "../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj",
-      "msbuildProject": "../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj"
+      "path": "../../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj",
+      "msbuildProject": "../../Shared.Lib.EventBus/Shared.Lib.EventBus.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -451,8 +451,8 @@
             "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
               "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
             },
-            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+            "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
             }
           }
         }

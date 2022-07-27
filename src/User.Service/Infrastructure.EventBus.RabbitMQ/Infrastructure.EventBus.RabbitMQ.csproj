@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Shared.Lib.EventBus\Shared.Lib.EventBus.csproj" />
+    <ProjectReference Include="..\..\Shared.Lib.EventBus\Shared.Lib.EventBus.csproj" />
   </ItemGroup>
 
 </Project>

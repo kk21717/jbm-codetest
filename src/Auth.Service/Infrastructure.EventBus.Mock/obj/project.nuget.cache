@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8+Ecpy4knXldqZNDH+OPibbtdV/5q1bgfQoyMlwdpoR4r2mGywl3zVAqpFAYUMeYk0JhkCbgHJaOfOI8td4p5Q==",
+  "dgSpecHash": "CCOSuktswottGQuN3btzZW2As2MwK6JUiV2a4EAfy6MuUK606Iyn/6MishaALQmh0jpYM5PkDkgVEdX37zocvw==",
   "success": true,
   "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
   "expectedPackageFiles": [],

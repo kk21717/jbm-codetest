@@ -32,8 +32,8 @@
               "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
                 "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+              "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
               }
             }
           }
@@ -406,8 +406,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+              "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
               }
             }
           }
@@ -529,14 +529,14 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+    "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
         "projectName": "Shared.Lib.EventBus",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
         "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Shared.Lib.EventBus\\obj\\",
+        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",

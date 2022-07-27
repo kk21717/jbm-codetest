@@ -17,9 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Shared.Lib.EventBus\Shared.Lib.EventBus.csproj" />
     <ProjectReference Include="..\Application.Command\Application.Command.csproj" />
     <ProjectReference Include="..\Infrastructure.EventBus.RabbitMQ\Infrastructure.EventBus.RabbitMQ.csproj" />
-    <ProjectReference Include="..\Shared.Lib.EventBus\Shared.Lib.EventBus.csproj" />
   </ItemGroup>
 
 </Project>
