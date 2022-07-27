@@ -12,7 +12,7 @@ public class RegisterAccountService
     {
         _repository = repository;
     }
-    public async Task RegisterAccountAsync(Account input)
+    public async Task<int> RegisterAccountAsync(Account input)
     {
         //validate phone format
         var validatePhoneRegex = new Regex("^\\+?[1-9][0-9]{7,14}$");
@@ -30,7 +30,7 @@ public class RegisterAccountService
             if (await _repository.AccountExistsAsync(input.Phone))
                 throw new DuplicatePhoneException();
 
-            await _repository.InsertAccountAsync(input);
+            return await _repository.InsertAccountAsync(input);
         }
         catch (Exception ex)
         {

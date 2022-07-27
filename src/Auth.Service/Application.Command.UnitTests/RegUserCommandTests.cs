@@ -28,7 +28,7 @@ public class RegUserCommandTests
         });
 
         var cancellationToken = new CancellationToken();
-        _commandHandler.Handle(command, cancellationToken).GetAwaiter().GetResult();
+        var res = _commandHandler.Handle(command, cancellationToken).GetAwaiter().GetResult();
 
         Assert.Pass();
     }

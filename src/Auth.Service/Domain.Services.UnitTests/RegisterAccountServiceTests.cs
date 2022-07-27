@@ -19,8 +19,8 @@ public class RegisterAccountServiceTests
     public void ValidInput()
     {
         var account = new Account("+989126164570", "kamran@gmail.com");
-        _service.RegisterAccountAsync(account).GetAwaiter().GetResult();
-        Assert.Pass();
+        var newId = _service.RegisterAccountAsync(account).GetAwaiter().GetResult();
+        Assert.Positive(newId);
     }
 
     [Test]

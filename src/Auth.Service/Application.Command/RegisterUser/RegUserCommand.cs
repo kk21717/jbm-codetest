@@ -8,7 +8,7 @@ using Shared.Lib.EventBus.AuthService;
 
 namespace Application.Command.RegisterUser;
 
-public class RegUserCommand : BaseCommand<Unit> 
+public class RegUserCommand : BaseCommand<RegUserCommandOutput> 
 {
     public RegUserCommandInput Input { get; }
     public RegUserCommand(RegUserCommandInput input)
@@ -18,7 +18,7 @@ public class RegUserCommand : BaseCommand<Unit>
     
 }
 
-public class RegUserCommandHandler : BaseCommandHandler<RegUserCommand, Unit>
+public class RegUserCommandHandler : BaseCommandHandler<RegUserCommand, RegUserCommandOutput>
 {
     private readonly IRepository _repository;
     private readonly IEventBus _eventBus;
@@ -31,19 +31,20 @@ public class RegUserCommandHandler : BaseCommandHandler<RegUserCommand, Unit>
         _eventBus = eventBus;
     }
 
-    public override async Task<Unit> Handle(RegUserCommand request, CancellationToken cancellationToken)
+    public override async Task<RegUserCommandOutput> Handle(RegUserCommand request, CancellationToken cancellationToken)
     {
         var domainService = new RegisterAccountService(_repository);
 
         var account = AutoMapping.Mapper.Map<Account>(request.Input);
-        await domainService.RegisterAccountAsync(account);
+        var newUserId = await domainService.RegisterAccountAsync(account);
             
 
         //account registered successfully
         //push event to EventBus to be consumed by exchange subscribers ( e.g. UserService )
         var regEvent = AutoMapping.Mapper.Map<AccountRegisteredEvent>(request.Input);
+        regEvent.UserId = newUserId;
         await _eventBus.publishEventAsync(regEvent);
 
-        return Unit.Value;
+        return new RegUserCommandOutput(newUserId);
     }
 }

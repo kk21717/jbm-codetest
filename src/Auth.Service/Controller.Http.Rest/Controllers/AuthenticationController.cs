@@ -18,8 +18,9 @@ public class AuthenticationController : ControllerBase
         _mediatorSender = mediatorSender;
     }
 
-    [HttpPost]
+    [Tags("Account")]
     [Route("reg-account")]
+    [HttpPost]
     public async Task<ActionResult> RegisterAccountAsync(RegUserCommandInput input)
     {
         input = new RegUserCommandInput()
@@ -29,7 +30,12 @@ public class AuthenticationController : ControllerBase
             FirstName = "kamran",
             LastName = "karami"
         };
-        await _mediatorSender.Send(new RegUserCommand(input));
-        return Ok();
+        var commandOutput = await _mediatorSender.Send(new RegUserCommand(input));
+
+        //context.Response.ContentType = "application/json";
+        //context.Response.WriteAsync(JsonConvert.SerializeObject(errorMessage));
+        //return Task.FromResult(errorMessage);
+
+        return Ok(commandOutput);
     }
 }

@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Shared.Lib.EventBus.AuthService
 {
-    public record AccountRegisteredEvent(string Phone, string Email, string FirstName, string LastName)
+    public record AccountRegisteredEvent(int UserId, string Phone, string Email, string FirstName, string LastName)
     {
-        public AccountRegisteredEvent() : this(string.Empty, string.Empty, string.Empty, string.Empty) { }
+        public AccountRegisteredEvent() : this(0, string.Empty, string.Empty, string.Empty, string.Empty) { }
 
+        public int UserId { get; set; } = UserId;
 
         public string Phone { get; set; } = Phone;
 
