@@ -104,7 +104,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Entities\\Domain.Entities.csproj"
+              },
+              "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

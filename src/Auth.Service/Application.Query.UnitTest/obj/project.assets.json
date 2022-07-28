@@ -908,6 +908,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Domain.Entities": "1.0.0",
+          "Domain.Services": "1.0.0",
           "MediatR": "10.0.1"
         },
         "compile": {
@@ -915,6 +917,42 @@
         },
         "runtime": {
           "bin/placeholder/Application.Query.dll": {}
+        }
+      },
+      "Domain.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Entities.dll": {}
+        }
+      },
+      "Domain.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Services.dll": {}
+        }
+      },
+      "Infrastructure.Repository.Mock/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain.Services": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.Repository.Mock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.Repository.Mock.dll": {}
         }
       }
     }
@@ -3882,11 +3920,27 @@
       "type": "project",
       "path": "../Application.Query/Application.Query.csproj",
       "msbuildProject": "../Application.Query/Application.Query.csproj"
+    },
+    "Domain.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Entities/Domain.Entities.csproj",
+      "msbuildProject": "../Domain.Entities/Domain.Entities.csproj"
+    },
+    "Domain.Services/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Services/Domain.Services.csproj",
+      "msbuildProject": "../Domain.Services/Domain.Services.csproj"
+    },
+    "Infrastructure.Repository.Mock/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure.Repository.Mock/Infrastructure.Repository.Mock.csproj",
+      "msbuildProject": "../Infrastructure.Repository.Mock/Infrastructure.Repository.Mock.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Application.Query >= 1.0.0",
+      "Infrastructure.Repository.Mock >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.0.0",
@@ -3923,6 +3977,9 @@
           "projectReferences": {
             "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Query\\Application.Query.csproj": {
               "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Application.Query\\Application.Query.csproj"
+            },
+            "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj": {
+              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj"
             }
           }
         }

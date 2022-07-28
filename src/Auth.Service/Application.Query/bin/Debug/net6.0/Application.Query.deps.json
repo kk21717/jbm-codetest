@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "Application.Query/1.0.0": {
         "dependencies": {
+          "Domain.Entities": "1.0.0",
+          "Domain.Services": "1.0.0",
           "MediatR": "10.0.1"
         },
         "runtime": {
@@ -32,6 +34,19 @@
             "fileVersion": "1.0.1.0"
           }
         }
+      },
+      "Domain.Entities/1.0.0": {
+        "runtime": {
+          "Domain.Entities.dll": {}
+        }
+      },
+      "Domain.Services/1.0.0": {
+        "dependencies": {
+          "Domain.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Domain.Services.dll": {}
+        }
       }
     }
   },
@@ -54,6 +69,16 @@
       "sha512": "sha512-NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
       "path": "mediatr.contracts/1.0.1",
       "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
+    },
+    "Domain.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,5 +1,6 @@
 
 using Application.Command.RegisterUser;
+using Application.Query.GetUserAccount;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,14 +20,14 @@ public class AuthenticationController : ControllerBase
     }
 
     [Tags("UserAccount")]
-    [Route("reg-account")]
+    [Route("accounts/register")]
     [HttpPost]
     public async Task<ActionResult> RegisterAccountAsync(RegUserCommandInput input)
     {
         #region temp code to speed up manual testing
-        if (input.Email == "string" && 
-            input.Phone == "string" && 
-            input.FirstName == "string" && 
+        if (input.Email == "string" &&
+            input.Phone == "string" &&
+            input.FirstName == "string" &&
             input.LastName == "string")
         {
             input = new RegUserCommandInput()
@@ -39,10 +40,23 @@ public class AuthenticationController : ControllerBase
         }
         #endregion
 
-        // execute command using mediatR
+        //execute command using mediatR
         var commandOutput = await _mediatorSender.Send(new RegUserCommand(input));
 
-        // return 200 resonse code with having {newUserId} in response body
+        //return 200 resonse code with having { newUserId} in response body
         return Ok(commandOutput);
     }
+
+    [Tags("UserAccount")]
+    [Route("accounts/get/{userId:int}")]
+    [HttpGet]
+    public async Task<ActionResult> GetAccountAsync(int userId)
+    {
+        // execute command using mediatR
+        var account = await _mediatorSender.Send(new GetUserAccountQuery(userId));
+
+        // return 200 resonse code with having retrievd account on its response body
+        return Ok(account);
+    }
+
 }

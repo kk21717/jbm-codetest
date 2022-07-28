@@ -1,7 +1,8 @@
 ﻿
+
 namespace Domain.Services.Exceptions;
 
-public class DuplicatePhoneException: DomainException
+public class DuplicatePhoneException : DomainException
 {
 
 }

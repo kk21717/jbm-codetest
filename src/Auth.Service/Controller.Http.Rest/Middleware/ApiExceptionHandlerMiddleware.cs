@@ -61,6 +61,14 @@ internal class ApiExceptionHandlerMiddleware
                 context.Response.StatusCode = (int)HttpStatusCode.Conflict;
                 break;
 
+            case InvalidUserIdException:
+                context.Response.StatusCode = (int)HttpStatusCode.NotAcceptable;
+                break;
+
+            case AccountNotFoundException:
+                context.Response.StatusCode = (int)HttpStatusCode.NotFound;
+                break;
+
             case RepositoryFailedException :
                 context.Response.StatusCode = (int)HttpStatusCode.ServiceUnavailable;
                 break;

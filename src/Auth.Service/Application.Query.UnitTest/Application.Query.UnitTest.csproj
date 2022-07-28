@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Application.Query\Application.Query.csproj" />
+    <ProjectReference Include="..\Infrastructure.Repository.Mock\Infrastructure.Repository.Mock.csproj" />
   </ItemGroup>
 
 </Project>

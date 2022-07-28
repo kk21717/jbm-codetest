@@ -2,7 +2,7 @@
 
 namespace Domain.Services.Exceptions;
 
-public class InvalidPhoneException: DomainException
+public class InvalidPhoneException : DomainException
 {
 
 }

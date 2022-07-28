@@ -9,6 +9,11 @@ public class MockRepository : IRepository
     private readonly List<Account> _accounts = new();
     private int _lastId = 10;
 
+    public Task<Account> GetAccountAsync(int userId)
+    {
+        return Task.FromResult(_accounts.SingleOrDefault(a => a.UserId == userId));
+    }
+
     Task<bool> IRepository.AccountExistsAsync(string phone)
     {
         return Task.FromResult(_accounts.Any(a=>a.Phone == phone));

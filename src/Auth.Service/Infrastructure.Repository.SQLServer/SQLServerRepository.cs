@@ -13,6 +13,12 @@ public class SQLServerRepository : IRepository
         _options = options;
     }
 
+    public async Task<Account> GetAccountAsync(int userId)
+    {
+        using var context = new SQLServerDBContext(_options);
+        return await context.Accounts.SingleOrDefaultAsync(a => a.UserId == userId);
+    }
+
     async Task<bool> IRepository.AccountExistsAsync(string phone)
     {
         using var context = new SQLServerDBContext(_options);

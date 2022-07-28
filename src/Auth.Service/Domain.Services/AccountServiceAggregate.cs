@@ -22,7 +22,7 @@ public class AccountServiceAggregate
         //validate email format 
         var validateEmailRegex = new Regex("^\\S+@\\S+\\.\\S+$");
         if (string.IsNullOrEmpty(input.Email) || !validateEmailRegex.IsMatch(input.Email))
-            throw new InvalidEmailException();
+            throw new InvalidUserIdException();
 
         try
         {
@@ -38,6 +38,24 @@ public class AccountServiceAggregate
                 throw;
 
             throw new RepositoryFailedException($"{nameof(RepositoryFailedException)} : {ex.Message}" , ex);
+        }
+    }
+
+    public async Task<Account> GetAccountAsync(int userId)
+    {
+        try
+        {
+            if(userId <= 0)
+                throw new InvalidUserIdException();
+            var account = await _repository.GetAccountAsync(userId);
+            return account??throw new AccountNotFoundException();
+        }
+        catch (Exception ex)
+        {
+            if (ex is InvalidUserIdException || ex is AccountNotFoundException)
+                throw;
+
+            throw new RepositoryFailedException($"{nameof(RepositoryFailedException)} : {ex.Message}", ex);
         }
     }
 }

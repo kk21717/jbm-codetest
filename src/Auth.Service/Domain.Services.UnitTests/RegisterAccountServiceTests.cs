@@ -35,7 +35,7 @@ public class RegisterAccountServiceTests
     [Test]
     public void InvalidEmail()
     {
-        Assert.Throws<InvalidEmailException>(delegate {
+        Assert.Throws<InvalidUserIdException>(delegate {
             var account = new Account("+989126453214", "some invalid email");
             _service.RegisterAccountAsync(account).GetAwaiter().GetResult();
         });

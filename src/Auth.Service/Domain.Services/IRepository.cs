@@ -6,4 +6,6 @@ public interface IRepository
 {
     public Task<int> InsertAccountAsync(Account newAccount);
     public Task<bool> AccountExistsAsync(string phone);
+
+    public Task<Account> GetAccountAsync(int userId);
 }

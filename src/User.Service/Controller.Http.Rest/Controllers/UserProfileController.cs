@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Controller.Http.Rest.Controllers;
 
 [ApiController]
-[Route("profile")]
+[Route("user-service")]
 public class UserProfileController : ControllerBase
 {
     private readonly ISender _mediatorSender;
@@ -19,7 +19,7 @@ public class UserProfileController : ControllerBase
     }
 
     [Tags("UserProfile")]
-    [Route("get/{userId:int}")]
+    [Route("profiles/get/{userId:int}")]
     [HttpGet]
     public async Task<ActionResult> GetUserProfileAsync(int userId)
     {
