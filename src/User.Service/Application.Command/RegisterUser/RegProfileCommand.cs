@@ -3,8 +3,7 @@ using Application.Command.Mapping;
 using Domain.Entities;
 using Domain.Services;
 using MediatR;
-using Shared.Lib.EventBus;
-using Shared.Lib.EventBus.AuthService;
+
 
 namespace Application.Command.RegisterUser;
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lP8OODMcLiqDTVfehOIITy53cxOKLH2fop+W3Jm6ELfj+WvcpzCbx7M6uY9KdKEotvwTl7BEV+JTny409A33zQ==",
+  "dgSpecHash": "lLQbQ8x5NsKZcA7AbgnrLn6IkbJIK+Rv/gyhVkYcTDPdfq9iHT4o85hw4+QpbFDcNbV9kIr7/kcUkg1Yvw2Jnw==",
   "success": true,
-  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj",
+  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Domain.Services\\Domain.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

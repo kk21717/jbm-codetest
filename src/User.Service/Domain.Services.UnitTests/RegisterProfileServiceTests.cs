@@ -24,7 +24,7 @@ public class RegisterProfileServiceTests
     }
 
     [Test]
-    public void ExistingsId()
+    public void ExistingId()
     {
         Assert.Throws<DuplicateUserIdException>(delegate {
 

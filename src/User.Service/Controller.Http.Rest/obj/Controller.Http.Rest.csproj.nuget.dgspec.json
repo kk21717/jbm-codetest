@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj": {}
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj": {}
   },
   "projects": {
-    "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
         "projectName": "Shared.Lib.EventBus",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,17 +58,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj",
         "projectName": "Application.Command",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Command\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,18 +76,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
               }
             }
           }
@@ -135,17 +133,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj",
         "projectName": "Application.Query",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Query\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Query\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -153,18 +151,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
               }
             }
           }
@@ -203,17 +200,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
         "projectName": "Controller.Http.Rest",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\Controller.Http.Rest.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Controller.Http.Rest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -221,27 +218,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj"
               }
             }
           }
@@ -329,17 +325,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj",
         "projectName": "Domain.Entities",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -347,7 +343,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -384,17 +379,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj",
         "projectName": "Domain.Services",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -402,15 +397,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj"
               }
             }
           }
@@ -443,17 +437,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj",
         "projectName": "Infrastructure.EventBus.RabbitMQ",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -461,15 +455,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
               }
             }
           }
@@ -512,17 +505,17 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
+    "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
+        "projectUniqueName": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
         "projectName": "Infrastructure.Repository.SQLServer",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
-        "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\obj\\",
+        "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
+        "packagesPath": "C:\\Users\\Kamran\\.nuget\\packages\\",
+        "outputPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kamran\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -530,15 +523,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://192.168.72.17:8092/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
+              "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
               }
             }
           }

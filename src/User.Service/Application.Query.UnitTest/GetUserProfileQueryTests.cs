@@ -17,19 +17,19 @@ public class GetUserProfileQueryTests
     public void Setup()
     {
         _mockRepository = new MockRepository();
-        _queryHandler = new(_mockRepository);
+        _queryHandler = new GetUserProfileQueryHandler(_mockRepository);
     }
 
     [Test]
     public void ReturnsProfileForExistingUserId()
     {
-        var profileMartin = new UserProfile()
+        var profileMartin = new UserProfile
         {
             UserId = 1,
             FirstName = "Martin",
             LastName = "Fowler"
         };
-        var profileGreg = new UserProfile()
+        var profileGreg = new UserProfile
         {
             UserId = 2,
             FirstName = "Greg",
@@ -54,7 +54,7 @@ public class GetUserProfileQueryTests
         Assert.Throws<UserIdNotFoundException>(delegate {
             var query = new GetUserProfileQuery(65465); //some non-existing Userid
             var cancellationToken = new CancellationToken();
-            var fetchedProfile = _queryHandler.Handle(query, cancellationToken).GetAwaiter().GetResult();
+            _queryHandler.Handle(query, cancellationToken).GetAwaiter().GetResult();
         });
     }
 }

@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Shared.Lib.EventBus
-build_property.ProjectDir = C:\Karami\other\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\
+build_property.ProjectDir = C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Shared.Lib.EventBus\

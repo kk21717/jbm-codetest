@@ -15,7 +15,7 @@ public class SQLServerRepository : IRepository
 
     async Task<bool> IRepository.UserIdExistsAsync(int userId)
     {
-        using var context = new SQLServerDBContext(_options);
+        await using var context = new SQLServerDBContext(_options);
         return await context.UserProfiles.AnyAsync(a => a.UserId == userId);
     }
 

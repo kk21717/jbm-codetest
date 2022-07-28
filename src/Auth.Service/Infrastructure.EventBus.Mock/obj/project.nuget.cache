@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CCOSuktswottGQuN3btzZW2As2MwK6JUiV2a4EAfy6MuUK606Iyn/6MishaALQmh0jpYM5PkDkgVEdX37zocvw==",
+  "dgSpecHash": "W7VmOFe/qLh0o6gflU/LVS11WtPZCVT4p1UZuJizHNh9MmLfTefdXHsUY+1AodnIDSIwFGnN7tHC0Nr8Gqj09g==",
   "success": true,
-  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
+  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Auth.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

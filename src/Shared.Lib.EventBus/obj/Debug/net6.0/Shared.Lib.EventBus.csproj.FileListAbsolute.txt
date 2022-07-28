@@ -45,3 +45,15 @@ C:\Karami\other\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib
 C:\Karami\other\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.dll
 C:\Karami\other\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\ref\Shared.Lib.EventBus.dll
 C:\Karami\other\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\bin\Debug\net6.0\ref\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\bin\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\ref\Shared.Lib.EventBus.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Shared.Lib.EventBus\obj\Debug\net6.0\Shared.Lib.EventBus.csproj.AssemblyReference.cache

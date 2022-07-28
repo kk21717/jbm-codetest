@@ -1,9 +1,7 @@
 
-using Application.Command.RegisterUser;
 using Application.Query.GetUserProfile;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace Controller.Http.Rest.Controllers;
 
@@ -21,7 +19,7 @@ public class UserProfileController : ControllerBase
     }
 
     [HttpGet]
-    [Route("get/{userId}")]
+    [Route("get/{userId:int}")]
     public async Task<ActionResult> GetUserProfileAsync(int userId)
     {
         var profile = await _mediatorSender.Send(new GetUserProfileQuery(userId));

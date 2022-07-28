@@ -17,15 +17,16 @@ internal class ApiExceptionHandlerMiddleware
         }
     }
 
-    private readonly ILogger<ApiExceptionHandlerMiddleware> _logger;
+    //private readonly ILogger<ApiExceptionHandlerMiddleware> _logger;
     private readonly RequestDelegate _next;
 
     public ApiExceptionHandlerMiddleware(
-        RequestDelegate next, 
-        ILogger<ApiExceptionHandlerMiddleware> logger)
+        RequestDelegate next
+        //,ILogger<ApiExceptionHandlerMiddleware> logger
+        )
     {
         _next = next;
-        _logger = logger;
+        //_logger = logger;
     }
 
     public async Task InvokeAsync(HttpContext httpContext)
@@ -39,7 +40,7 @@ internal class ApiExceptionHandlerMiddleware
             var errorMessage = await HandleExceptionAsync(httpContext, exception);
 
             //if (exception is not DomainException)
-            //_logger.LogCritical(errorMessage);
+            //    _logger.LogCritical(errorMessage);
         }
     }
 

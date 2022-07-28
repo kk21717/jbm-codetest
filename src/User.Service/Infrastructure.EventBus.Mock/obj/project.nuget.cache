@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BoNW2jlWXJtcGDHc1fVTOBeK1UOdTLtvFAhIECGHlimQRvgiHyEtfCva1ttAgNHghzzB+exLIFcS2rCujgkvgQ==",
+  "dgSpecHash": "0scjK0VXD+cnvTJA1wPhdsbagyjTIp8n2UXaI4WyhPrC5NYupJbfKkrS4sHGtcZzC11QiqPHpIiHQt1G7RtSbg==",
   "success": true,
-  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
+  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.Mock\\Infrastructure.EventBus.Mock.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
