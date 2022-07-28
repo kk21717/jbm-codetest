@@ -6,7 +6,7 @@ namespace Infrastructure.Repository.SQLServer.Entities;
 
 
 [Index(nameof(Phone), IsUnique = true)]
-public class Account
+public class Account:Domain.Entities.Account
 {
     public Account()
     {
@@ -19,9 +19,9 @@ public class Account
     public int UserId { get; set; }
 
     [MaxLength(30)]
-    public string Phone { get; set; }
+    public new string Phone { get; set; }
 
     [MaxLength(150)]
-    public string Email { get; set; }
+    public new string Email { get; set; }
 
 }

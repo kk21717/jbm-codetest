@@ -18,7 +18,7 @@ public class AuthenticationController : ControllerBase
         _mediatorSender = mediatorSender;
     }
 
-    [Tags("Account")]
+    [Tags("UserAccount")]
     [Route("reg-account")]
     [HttpPost]
     public async Task<ActionResult> RegisterAccountAsync(RegUserCommandInput input)

@@ -20,8 +20,9 @@ public class UserProfileController : ControllerBase
         _mediatorSender = mediatorSender;
     }
 
-    [HttpGet]
+    [Tags("UserProfile")]
     [Route("get/{userId}")]
+    [HttpGet]
     public async Task<ActionResult> GetUserProfileAsync(int userId)
     {
         var profile = await _mediatorSender.Send(new GetUserProfileQuery(userId));
