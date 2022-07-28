@@ -21,7 +21,6 @@ public class UserProfileController : ControllerBase
     }
 
     [HttpGet]
-    //[Tags("UserProfile")]
     [Route("get/{userId}")]
     public async Task<ActionResult> GetUserProfileAsync(int userId)
     {
