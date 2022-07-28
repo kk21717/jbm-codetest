@@ -33,3 +33,4 @@ C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.dll
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\ref\Application.Query.dll
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.AssemblyReference.cache

@@ -160,14 +160,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
-              },
               "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj": {
                 "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj"
               },
-              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj"
+              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj"
               }
             }
           }
@@ -182,6 +179,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "MassTransit": {
               "target": "Package",
               "version": "[8.0.5, )"
@@ -201,6 +202,20 @@
             "Microsoft.AspNetCore.Hosting": {
               "target": "Package",
               "version": "[2.2.7, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
@@ -340,14 +355,14 @@
         }
       }
     },
-    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj": {
+    "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj",
-        "projectName": "Infrastructure.EventBus.RabbitMQ",
-        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\Infrastructure.EventBus.RabbitMQ.csproj",
+        "projectUniqueName": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
+        "projectName": "Infrastructure.Repository.SQLServer",
+        "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\Infrastructure.Repository.SQLServer.csproj",
         "packagesPath": "C:\\Users\\k.karami\\.nuget\\packages\\",
-        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.EventBus.RabbitMQ\\obj\\",
+        "outputPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.SQLServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\k.karami\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -365,8 +380,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj": {
-                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj"
+              "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
+                "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
               }
             }
           }
@@ -381,13 +396,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "MassTransit": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[6.0.7, )"
             },
-            "MassTransit.RabbitMQ": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [

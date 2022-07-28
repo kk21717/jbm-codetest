@@ -1,4 +1,5 @@
-﻿using Application.Command.RegisterUser;
+﻿using Application.Command.Mapping;
+using Application.Command.RegisterUser;
 using MassTransit;
 using MediatR;
 using Shared.Lib.EventBus.AuthService;
@@ -16,12 +17,12 @@ namespace Controller.Worker.EventListeners.AuthService
 
         public async Task Consume(ConsumeContext<AccountRegisteredEvent> context)
         {
-            //context.SentTime
-            //context.Message
-            //await _mediatorSender.Send(new RegUserCommand(context.Message));
+            var profileCommandInput = AutoMapping.Mapper.Map<RegProfileCommandInput>(context.Message);
+            await _mediatorSender.Send(new RegProfileCommand(profileCommandInput));
+            //use context root fields like context.SentTimeto get metadata about event
         }
 
-        
+
     }
 
 }

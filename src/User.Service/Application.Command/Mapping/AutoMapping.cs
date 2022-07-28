@@ -24,8 +24,9 @@ public class MappingProfile : Profile
 {
     public MappingProfile()
     {
-        CreateMap<RegUserCommandInput, AccountRegisteredEvent>();
-        CreateMap<RegUserCommandInput, Account>();
-            
+        CreateMap<RegProfileCommandInput, AccountRegisteredEvent>();
+        CreateMap<AccountRegisteredEvent, RegProfileCommandInput>();
+        CreateMap<RegProfileCommandInput, UserProfile>();
+        
     }
 }

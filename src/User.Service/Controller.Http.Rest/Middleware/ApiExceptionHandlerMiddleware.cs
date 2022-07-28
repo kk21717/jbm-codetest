@@ -49,16 +49,12 @@ internal class ApiExceptionHandlerMiddleware
 
         switch (exception)
         {
-            case InvalidPhoneException :
-                context.Response.StatusCode = (int)HttpStatusCode.NotAcceptable;
-                break;
-
-            case InvalidEmailException :
-                context.Response.StatusCode = (int)HttpStatusCode.NotAcceptable;
-                break;
-
-            case DuplicatePhoneException :
+            case DuplicateUserIdException :
                 context.Response.StatusCode = (int)HttpStatusCode.Conflict;
+                break;
+
+            case UserIdNotFoundException:
+                context.Response.StatusCode = (int)HttpStatusCode.NotFound;
                 break;
 
             case RepositoryFailedException :

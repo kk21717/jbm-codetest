@@ -13,24 +13,33 @@ public class SQLServerRepository : IRepository
         _options = options;
     }
 
-    Task<bool> IRepository.AccountExistsAsync(string phone)
+    async Task<bool> IRepository.UserIdExistsAsync(int userId)
     {
         using var context = new SQLServerDBContext(_options);
-        return Task.FromResult(context.Accounts.Any(a => a.Phone == phone));
+        return await context.UserProfiles.AnyAsync(a => a.UserId == userId);
     }
 
-    async Task<int> IRepository.InsertAccountAsync(Account newAccount)
+    async Task IRepository.InsertUserProfileAsync(UserProfile userProfile)
     {
         await using var context = new SQLServerDBContext(_options);
-        var dbEntity = new Entities.Account
+        var dbEntity = new Entities.UserProfile
         {
-            Phone = newAccount.Phone,
-            Email = newAccount.Email
+            UserId = userProfile.UserId,
+            FirstName = userProfile.FirstName,
+            LastName = userProfile.LastName
         };
 
-        context.Accounts.Add(dbEntity);
+        context.UserProfiles.Add(dbEntity);
         await context.SaveChangesAsync();
-
-        return dbEntity.Id;
     }
+
+    public async Task<UserProfile> GetUserProfileAsync(int userId)
+    {
+        await using var context = new SQLServerDBContext(_options);
+        var entity = await context.UserProfiles.SingleOrDefaultAsync(a => a.UserId == userId);
+        if (entity == null)
+            throw new Exception("Entity not found");
+        return new UserProfile(entity.UserId,entity.FirstName,entity.LastName);
+    }
+
 }

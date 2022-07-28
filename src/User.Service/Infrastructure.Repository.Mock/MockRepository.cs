@@ -1,23 +1,32 @@
 ﻿using Domain.Entities;
 using Domain.Services;
+using Domain.Services.Exceptions;
 
 namespace Infrastructure.Repository.Mock;
 
 public class MockRepository : IRepository
 {
     //implementing a fake dummy repository
-    private readonly List<Account> _accounts = new();
+    private readonly List<UserProfile> _profiles = new();
     private int _lastId = 10;
 
-    Task<bool> IRepository.AccountExistsAsync(string phone)
+    Task<bool> IRepository.UserIdExistsAsync(int userId)
     {
-        return Task.FromResult(_accounts.Any(a=>a.Phone == phone));
+        return Task.FromResult(_profiles.Any(a => a.UserId == userId));
     }
 
-    Task<int> IRepository.InsertAccountAsync(Account newAccount)
+    Task IRepository.InsertUserProfileAsync(UserProfile newProfile)
     {
-        _accounts.Add(newAccount);
+        _profiles.Add(newProfile);
         _lastId++;
-        return Task.FromResult(_lastId);
+        return Task.CompletedTask;
+    }
+
+    public Task<UserProfile> GetUserProfileAsync(int userId)
+    {
+        var res = _profiles.SingleOrDefault(x => x.UserId == userId);
+        if (res == null)
+            throw new UserIdNotFoundException();
+        return Task.FromResult(res);
     }
 }

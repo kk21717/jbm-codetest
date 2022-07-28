@@ -13,10 +13,10 @@ public class SQLServerRepository : IRepository
         _options = options;
     }
 
-    Task<bool> IRepository.AccountExistsAsync(string phone)
+    async Task<bool> IRepository.AccountExistsAsync(string phone)
     {
         using var context = new SQLServerDBContext(_options);
-        return Task.FromResult(context.Accounts.Any(a => a.Phone == phone));
+        return await context.Accounts.AnyAsync(a => a.Phone == phone);
     }
 
     async Task<int> IRepository.InsertAccountAsync(Account newAccount)
@@ -31,6 +31,6 @@ public class SQLServerRepository : IRepository
         context.Accounts.Add(dbEntity);
         await context.SaveChangesAsync();
 
-        return dbEntity.Id;
+        return dbEntity.UserId;
     }
 }
