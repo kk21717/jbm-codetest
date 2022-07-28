@@ -7,7 +7,7 @@ namespace Domain.Services.UnitTests;
 
 public class RegisterAccountServiceTests
 {
-    private readonly RegisterAccountService _service = new(new MockRepository());
+    private readonly AccountServiceAggregate _service = new(new MockRepository());
 
     [SetUp]
     public void Setup()

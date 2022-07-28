@@ -9,6 +9,7 @@
       "Application.Query.UnitTest/1.0.0": {
         "dependencies": {
           "Application.Query": "1.0.0",
+          "Infrastructure.Repository.Mock": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.11.0",
           "NUnit": "3.13.2",
           "NUnit3TestAdapter": "4.0.0",
@@ -672,10 +673,33 @@
       },
       "Application.Query/1.0.0": {
         "dependencies": {
+          "Domain.Entities": "1.0.0",
+          "Domain.Services": "1.0.0",
           "MediatR": "10.0.1"
         },
         "runtime": {
           "Application.Query.dll": {}
+        }
+      },
+      "Domain.Entities/1.0.0": {
+        "runtime": {
+          "Domain.Entities.dll": {}
+        }
+      },
+      "Domain.Services/1.0.0": {
+        "dependencies": {
+          "Domain.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Domain.Services.dll": {}
+        }
+      },
+      "Infrastructure.Repository.Mock/1.0.0": {
+        "dependencies": {
+          "Domain.Services": "1.0.0"
+        },
+        "runtime": {
+          "Infrastructure.Repository.Mock.dll": {}
         }
       }
     }
@@ -1023,6 +1047,21 @@
       "hashPath": "system.xml.xdocument.4.0.11.nupkg.sha512"
     },
     "Application.Query/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Infrastructure.Repository.Mock/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

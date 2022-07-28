@@ -29,7 +29,7 @@ public class RegProfileCommandHandler : BaseCommandHandler<RegProfileCommand, Un
 
     public override async Task<Unit> Handle(RegProfileCommand request, CancellationToken cancellationToken)
     {
-        var domainService = new RegisterProfileService(_repository);
+        var domainService = new ProfileServiceAggregate(_repository);
 
         var profile = AutoMapping.Mapper.Map<UserProfile>(request.Input);
         await domainService.RegisterUserProfileAsync(profile);

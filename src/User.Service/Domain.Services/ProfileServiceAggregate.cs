@@ -4,11 +4,11 @@ using System.Text.RegularExpressions;
 
 namespace Domain.Services;
 
-public class RegisterProfileService
+public class ProfileServiceAggregate
 {
     private readonly IRepository _repository;
         
-    public RegisterProfileService(IRepository repository)
+    public ProfileServiceAggregate(IRepository repository)
     {
         _repository = repository;
     }

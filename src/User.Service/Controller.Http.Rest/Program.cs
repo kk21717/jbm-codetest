@@ -31,17 +31,24 @@ builder.Services.AddDbContext<SQLServerDBContext>(o =>{
 });
 
 
-//Add RabbitMq as the EventBusProvider 
+// we do not need to publish event from this microservice
+// but keep library as well as infrastructure.eventbus.rabbitmq project
+// for possible future need to raise any new event
+// Add RabbitMq as the EventBusProvider 
 builder.Services.AddScoped<IEventBus, RabbitEventBus>();
-//MassTransit-RabbitMQ Configuration
-builder.Services.AddMassTransit(config => {
-    config.UsingRabbitMq((ctx, cfg) => {
+// MassTransit-RabbitMQ Configuration
+builder.Services.AddMassTransit(config =>
+{
+    config.UsingRabbitMq((ctx, cfg) =>
+    {
         cfg.Host(builder.Configuration["RabbitEventBusOptions:HostAddress"]);
     });
 });
 
-//Add AutoMapper library to avoid manually setting
-//fields with the same names in different models
+// I have not used auto mapper library
+// but prefer to keep in for any future need to auto mapping
+// Add AutoMapper library to avoid manually setting
+// fields with the same names in different models
 builder.Services.AddAutoMapper(typeof(Program));
 
 

@@ -33,7 +33,7 @@ public class RegUserCommandHandler : BaseCommandHandler<RegUserCommand, RegUserC
 
     public override async Task<RegUserCommandOutput> Handle(RegUserCommand request, CancellationToken cancellationToken)
     {
-        var domainService = new RegisterAccountService(_repository);
+        var domainService = new AccountServiceAggregate(_repository);
 
         var account = AutoMapping.Mapper.Map<Account>(request.Input);
         var newUserId = await domainService.RegisterAccountAsync(account);

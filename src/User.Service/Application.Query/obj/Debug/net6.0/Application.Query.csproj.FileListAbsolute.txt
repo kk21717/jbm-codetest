@@ -34,3 +34,8 @@ C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\ref\Application.Query.dll
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.pdb
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\bin\Debug\net6.0\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\bin\Debug\net6.0\Domain.Services.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\bin\Debug\net6.0\Domain.Services.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.CopyComplete

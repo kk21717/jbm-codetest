@@ -7,7 +7,7 @@ namespace Domain.Services.UnitTests;
 
 public class RegisterProfileServiceTests
 {
-    private readonly RegisterProfileService _service = new(new MockRepository());
+    private readonly ProfileServiceAggregate _service = new(new MockRepository());
 
     [SetUp]
     public void Setup()

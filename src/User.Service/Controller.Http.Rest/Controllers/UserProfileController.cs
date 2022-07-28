@@ -1,12 +1,14 @@
 
 using Application.Command.RegisterUser;
+using Application.Query.GetUserProfile;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace Controller.Http.Rest.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("profile")]
 public class UserProfileController : ControllerBase
 {
     private readonly ISender _mediatorSender;
@@ -18,10 +20,12 @@ public class UserProfileController : ControllerBase
         _mediatorSender = mediatorSender;
     }
 
-    //[HttpPost]
-    //public async Task<ActionResult> RegisterProfileAsync(RegProfileCommandInput input)
-    //{
-    //    await _mediatorSender.Send(new RegProfileCommand(input));
-    //    return Ok();
-    //}
+    [HttpGet]
+    //[Tags("UserProfile")]
+    [Route("get/{userId}")]
+    public async Task<ActionResult> GetUserProfileAsync(int userId)
+    {
+        var profile = await _mediatorSender.Send(new GetUserProfileQuery(userId));
+        return Ok(profile);
+    }
 }

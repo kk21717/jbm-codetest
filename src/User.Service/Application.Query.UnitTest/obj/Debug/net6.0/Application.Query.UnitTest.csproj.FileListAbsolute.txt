@@ -310,3 +310,9 @@ C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\obj\Deb
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\obj\Debug\net6.0\ref\Application.Query.UnitTest.dll
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\obj\Debug\net6.0\Application.Query.UnitTest.pdb
 C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\obj\Debug\net6.0\Application.Query.UnitTest.genruntimeconfig.cache
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\bin\Debug\net6.0\Domain.Entities.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\bin\Debug\net6.0\Domain.Services.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\bin\Debug\net6.0\Infrastructure.Repository.Mock.dll
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\bin\Debug\net6.0\Infrastructure.Repository.Mock.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\bin\Debug\net6.0\Domain.Entities.pdb
+C:\Karami\other\jbm-codetest\src\User.Service\Application.Query.UnitTest\bin\Debug\net6.0\Domain.Services.pdb

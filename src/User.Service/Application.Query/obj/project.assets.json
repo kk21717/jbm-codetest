@@ -22,6 +22,29 @@
         "runtime": {
           "lib/netstandard2.0/MediatR.Contracts.dll": {}
         }
+      },
+      "Domain.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Domain.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Entities.dll": {}
+        }
+      },
+      "Domain.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Domain.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Services.dll": {}
+        }
       }
     }
   },
@@ -55,10 +78,22 @@
         "mediatr.contracts.1.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
       ]
+    },
+    "Domain.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Entities/Domain.Entities.csproj",
+      "msbuildProject": "../Domain.Entities/Domain.Entities.csproj"
+    },
+    "Domain.Services/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Services/Domain.Services.csproj",
+      "msbuildProject": "../Domain.Services/Domain.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Domain.Entities >= 1.0.0",
+      "Domain.Services >= 1.0.0",
       "MediatR >= 10.0.1"
     ]
   },
@@ -89,7 +124,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj": {
+              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Entities\\Domain.Entities.csproj"
+            },
+            "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj": {
+              "projectPath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

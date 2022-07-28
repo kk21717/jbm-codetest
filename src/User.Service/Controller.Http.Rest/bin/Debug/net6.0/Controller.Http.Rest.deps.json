@@ -692,6 +692,8 @@
       },
       "Application.Query/1.0.0": {
         "dependencies": {
+          "Domain.Entities": "1.0.0",
+          "Domain.Services": "1.0.0",
           "MediatR": "10.0.1"
         },
         "runtime": {
