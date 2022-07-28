@@ -21,3 +21,4 @@ C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Que
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\Application.Query.dll
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\ref\Application.Query.dll
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Auth.Service\Application.Query\bin\Debug\net6.0\Application.Query.pdb
+C:\Karami\other\jbm-codetest\src\Auth.Service\Application.Query\obj\Debug\net6.0\Application.Query.csproj.AssemblyReference.cache

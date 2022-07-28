@@ -14,8 +14,9 @@ public class UserProfile
         LastName = email;
     }
 
-    public int UserId { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
+    public new int UserId { get; set; }
+    public new string FirstName { get; set; }
+    public new string LastName { get; set; }
 
+    
 }

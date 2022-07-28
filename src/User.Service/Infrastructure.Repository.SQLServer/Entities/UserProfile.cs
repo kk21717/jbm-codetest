@@ -4,18 +4,18 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Infrastructure.Repository.SQLServer.Entities;
 
-public class UserProfile
+public class UserProfile:Domain.Entities.UserProfile
 { 
 
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.None)]
-    public int UserId { get; set; }
+    public new int UserId { get; set; }
 
     [MaxLength(150)]
-    public string FirstName { get; set; }
+    public new string FirstName { get; set; }
 
     [MaxLength(150)]
-    public string LastName { get; set; }
+    public new string LastName { get; set; }
 
 
 }

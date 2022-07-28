@@ -1085,6 +1085,7 @@
       },
       "Infrastructure.Repository.SQLServer/1.0.0": {
         "dependencies": {
+          "Domain.Entities": "1.0.0",
           "Domain.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.7",

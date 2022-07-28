@@ -1,6 +1,5 @@
 ﻿using Domain.Entities;
 using Domain.Services.Exceptions;
-using System.Text.RegularExpressions;
 
 namespace Domain.Services;
 

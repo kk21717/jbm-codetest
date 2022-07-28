@@ -1,21 +1,16 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Application.Command;
 using Controller.Worker;
-using Controller.Worker.EventListeners.AuthService;
 using Domain.Services;
 using Infrastructure.Repository.SQLServer;
 using MassTransit;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Reflection;
 
 
-//var configuration = new ConfigurationBuilder()
-//    .AddJsonFile("appsettings.json", false)
-//    .Build();
 
 Host.CreateDefaultBuilder(args)
     .ConfigureServices((hostContext, services) =>
@@ -24,15 +19,15 @@ Host.CreateDefaultBuilder(args)
         
 
         //add config read capability using options
-        //services.AddOptions();
-        var configuration = new ConfigurationBuilder()
-            .AddJsonFile("appsettings.json", false)
-            .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", true)
-            .Build();
-
+        //var configuration = new ConfigurationBuilder()
+        //    .AddJsonFile("appsettings.json", false)
+        //    .AddJsonFile($"appsettings.{Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")}.json", true)
+        //    .Build();
+        services.AddOptions();
+        var configuration = hostContext.Configuration;
 
         //get worker options from appsettings
-        services.Configure<WorkerOptions>(configuration.GetSection("WorkerOprions"));
+        services.Configure<WorkerOptions>(configuration.GetSection("WorkerOptions"));
 
 
         //MassTransit-RabbitMQ Configuration for adding consumer

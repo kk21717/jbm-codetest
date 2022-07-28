@@ -8,7 +8,6 @@ public class MockRepository : IRepository
 {
     //implementing a fake dummy repository
     private readonly List<UserProfile> _profiles = new();
-    private int _lastId = 10;
 
     Task<bool> IRepository.UserIdExistsAsync(int userId)
     {
@@ -18,7 +17,6 @@ public class MockRepository : IRepository
     Task IRepository.InsertUserProfileAsync(UserProfile newProfile)
     {
         _profiles.Add(newProfile);
-        _lastId++;
         return Task.CompletedTask;
     }
 

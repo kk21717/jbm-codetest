@@ -1,5 +1,4 @@
 using Application.Command.RegisterUser;
-using Infrastructure.EventBus.Mock;
 using Infrastructure.Repository.Mock;
 using NUnit.Framework;
 using System.Threading;

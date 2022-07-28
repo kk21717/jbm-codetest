@@ -15,7 +15,7 @@ public class SQLServerRepository : IRepository
 
     async Task<bool> IRepository.UserIdExistsAsync(int userId)
     {
-        using var context = new SQLServerDBContext(_options);
+        await using var context = new SQLServerDBContext(_options);
         return await context.UserProfiles.AnyAsync(a => a.UserId == userId);
     }
 
@@ -36,10 +36,7 @@ public class SQLServerRepository : IRepository
     public async Task<UserProfile> GetUserProfileAsync(int userId)
     {
         await using var context = new SQLServerDBContext(_options);
-        var entity = await context.UserProfiles.SingleOrDefaultAsync(a => a.UserId == userId);
-        if (entity == null)
-            throw new Exception("Entity not found");
-        return new UserProfile(entity.UserId,entity.FirstName,entity.LastName);
+        return await context.UserProfiles.SingleOrDefaultAsync(a => a.UserId == userId);
     }
 
 }
