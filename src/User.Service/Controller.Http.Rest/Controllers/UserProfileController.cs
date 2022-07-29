@@ -1,12 +1,13 @@
 
 using Application.Query.GetUserProfile;
+using Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Controller.Http.Rest.Controllers;
 
 [ApiController]
-[Route("user-service")]
+[Route("user-api")]
 public class UserProfileController : ControllerBase
 {
     private readonly ISender _mediatorSender;
@@ -19,11 +20,12 @@ public class UserProfileController : ControllerBase
     }
 
     [Tags("UserProfile")]
-    [Route("profiles/get/{userId:int}")]
+    [Route("profiles/{userId:int}")]
     [HttpGet]
-    public async Task<ActionResult> GetUserProfileAsync(int userId)
+    public async Task<UserProfile> GetUserProfileAsync(int userId)
     {
         var profile = await _mediatorSender.Send(new GetUserProfileQuery(userId));
-        return Ok(profile);
+        return profile; 
+        //returning domain object directly (instead of a dto) for saving time :)
     }
 }

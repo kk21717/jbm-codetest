@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NyY6vemwd2moY1supLiiS5yh4KnZpcYA8L6JscnMzgQ=",
+  "Source": "Controller.Http.Rest",
+  "BasePath": "_content/Controller.Http.Rest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

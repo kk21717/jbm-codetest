@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 using Shared.Lib.EventBus;
 using System.Reflection;
 using Application.Query;
-using RabbitMQ.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 

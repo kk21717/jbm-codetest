@@ -50,11 +50,11 @@ internal class ApiExceptionHandlerMiddleware
         switch (exception)
         {
             case InvalidPhoneException :
-                context.Response.StatusCode = (int)HttpStatusCode.NotAcceptable;
+                context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 break;
 
             case InvalidEmailException :
-                context.Response.StatusCode = (int)HttpStatusCode.NotAcceptable;
+                context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 break;
 
             case DuplicatePhoneException :
@@ -62,7 +62,7 @@ internal class ApiExceptionHandlerMiddleware
                 break;
 
             case InvalidUserIdException:
-                context.Response.StatusCode = (int)HttpStatusCode.NotAcceptable;
+                context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
                 break;
 
             case AccountNotFoundException:
