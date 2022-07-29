@@ -48,7 +48,7 @@ namespace Controller.Http.Rest.Middleware
 
             switch (exception)
             {
-                case DownstreamUnavailableException:
+                case DownstreamException:
                     context.Response.StatusCode = (int)HttpStatusCode.ServiceUnavailable;
                     break;
 

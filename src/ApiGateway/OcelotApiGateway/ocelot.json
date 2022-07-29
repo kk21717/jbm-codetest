@@ -1,0 +1,57 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:8050"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/gateway/aggregator-api/userviews/{userId}",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/aggregator-api/userviews/{userId}",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8040
+        }
+      ],
+      "SwaggerKey": "aggregator-service"
+    },
+    {
+      "UpstreamPathTemplate": "/gateway/auth-api/accounts/register",
+      "UpstreamHttpMethod": [ "Post" ],
+      "DownstreamPathTemplate": "/auth-api/accounts/register",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8020
+        }
+      ],
+      "SwaggerKey": "auth-service"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "auth-service",
+      "Config": [
+        {
+          "Name": "Authentication Service",
+          "Version": "v1",
+          "Url": "http://localhost:8020/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "aggregator-service",
+      "Config": [
+        {
+          "Name": "Aggregator Service",
+          "Version": "v1",
+          "Url": "http://localhost:8040/swagger/v1/swagger.json"
+        }
+      ]
+    }
+
+
+  ]
+}

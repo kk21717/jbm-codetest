@@ -80,7 +80,12 @@
       "ProjectGuid": "46aec509-0de3-4499-b42c-6fceef6adf0f",
       "DisplayName": "Application.Query.UnitTest",
       "ColorIndex": 14
+    },
+    "e841f160-7767-40ea-b152-f1dda26e64e5": {
+      "ProjectGuid": "e841f160-7767-40ea-b152-f1dda26e64e5",
+      "DisplayName": "Shared.Lib.EventBus",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 0
 }

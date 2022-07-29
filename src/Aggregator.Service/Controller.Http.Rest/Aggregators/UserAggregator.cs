@@ -44,7 +44,7 @@ namespace Controller.Http.Rest.Aggregators
             }
             catch (Exception ex)
             {
-                throw new DownstreamUnavailableException();
+                throw new DownstreamException();
             }
         }
 
