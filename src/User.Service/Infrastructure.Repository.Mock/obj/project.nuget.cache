@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JuzaYwnITgkQxrXpL1LZyzBgWtJCaosnELif45d2z2Wl95YK5tglSPNMr1VJsuKBqKoruqb66jFTYgSjD0hAbQ==",
+  "dgSpecHash": "SxpvZQv6kxvn90UPUeEl1QeIAII+a/jeNMlwMrQwdkh4/YNjwHmM89vM7VjDId8JO1tTmO1JINis5jlppbLLMA==",
   "success": true,
-  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj",
+  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Infrastructure.Repository.Mock\\Infrastructure.Repository.Mock.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

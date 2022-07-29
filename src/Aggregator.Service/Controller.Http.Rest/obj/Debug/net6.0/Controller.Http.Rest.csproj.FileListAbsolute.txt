@@ -10,7 +10,6 @@ C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Deb
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.csproj.AssemblyReference.cache
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.GeneratedMSBuildEditorConfig.editorconfig
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.AssemblyInfoInputs.cache
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.AssemblyInfo.cs
@@ -52,3 +51,5 @@ C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controlle
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\ref\Controller.Http.Rest.dll
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.pdb
 C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.genruntimeconfig.cache
+C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.csproj.AssemblyReference.cache
+C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Newtonsoft.Json.dll

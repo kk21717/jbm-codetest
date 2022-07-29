@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ZLvP1BoHBBaAOJ+qTKA5gVK2XxGQeIjjMDNKsWfUDI2/ouzSFDajjPxsHmuOUYjCvngxWevMHm9l27gkteomw==",
+  "dgSpecHash": "ejd/F6Bujacm5kKIotWGcQZWtPmQdmwts1pRglnqcUtxU46rwtpx1ZP4U+sK6/wqw0TcLyxfW0H+GImBFiOLTQ==",
   "success": true,
-  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj",
+  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Domain.Services\\Domain.Services.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

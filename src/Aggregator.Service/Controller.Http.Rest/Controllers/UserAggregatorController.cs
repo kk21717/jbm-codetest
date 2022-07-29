@@ -12,17 +12,15 @@ namespace Controller.Http.Rest.Controllers
     public class UserAggregatorController : ControllerBase
     {
         private readonly ILogger<UserAggregatorController> _logger;
-        //private readonly IUserAggregator _userAggregator;
-        private readonly IHttpClientServiceImplementation _httpClientFactoryService;
+        private readonly IUserAggregator _userAggregator;
 
-        public UserAggregatorController(ILogger<UserAggregatorController> logger
-            //,IUserAggregator userAggregator
-            ,IHttpClientServiceImplementation httpClientFactoryService
-            )
+
+        public UserAggregatorController(
+            ILogger<UserAggregatorController> logger
+            ,IUserAggregator userAggregator)
         {
             _logger = logger;
-            //_userAggregator = userAggregator;
-            _httpClientFactoryService = httpClientFactoryService;
+            _userAggregator = userAggregator;
         }
 
 
@@ -31,9 +29,8 @@ namespace Controller.Http.Rest.Controllers
         [HttpGet]
         public async Task<UserView> GetUserView(int userId)
         {
-            //var userView = await _userAggregator.GetUserViewAsync(userId);
-            var userView = _httpClientFactoryService.Execute();
-            return new UserView();
+            var userView = await _userAggregator.GetUserViewAsync(userId);
+            return userView;
         }
 
        

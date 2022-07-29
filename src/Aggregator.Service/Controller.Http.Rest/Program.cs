@@ -1,4 +1,5 @@
 using Controller.Http.Rest.Aggregators;
+using Controller.Http.Rest.Middleware;
 using Controller.Http.Rest.Models;
 using Controller.Http.Rest.Util;
 
@@ -8,20 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOptions();
 
+// add injection for sending httprequests and my aggregator
+builder.Services.AddSingleton<IHttpClientService, HttpClientService>();
+builder.Services.AddSingleton<IUserAggregator, UserAggregator>();
 builder.Services.Configure<ExternalResourcesOptions>(
     builder.Configuration.GetSection("ExternalResourcesOptions"));
 
-
-builder.Services.AddHttpClient("UserAccountsClient", config =>
-{
-    config.BaseAddress = new Uri("http://127.0.0.1:8030/user-api/profiles/1");
-    config.Timeout = new TimeSpan(0, 0, 30);
-    config.DefaultRequestHeaders.Clear();
-});
-
-builder.Services.AddScoped<IHttpClientServiceImplementation, HttpClientFactoryService>();
-
-//builder.Services.AddHttpClient<IUserAggregator, UserAggregator>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -29,6 +22,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+//Add a custom middleware for converting exceptions to rest http response codes
+app.UseMiddleware<ApiExceptionHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

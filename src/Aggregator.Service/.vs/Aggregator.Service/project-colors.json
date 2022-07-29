@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "41b1d81b-35e0-4d73-8a55-5d1f80a391aa": {
+      "ProjectGuid": "41b1d81b-35e0-4d73-8a55-5d1f80a391aa",
+      "DisplayName": "Controller.Http.Rest",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

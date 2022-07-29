@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JbyZ2NsCmhiqAJ851HzsT+YG9eVjED8yx4iqRKDZ51ctO6QfkmFmpBhpE8Bc7mcBX4HQAtUW6kpkV38qpzPHhg==",
+  "dgSpecHash": "RDI0XUe0aN+WkTy6B91b6cXTVHO6NLaeJwJ9PJl18CwKVyod/23ZOIoKM659xkMkJblQFFtz9LS2gBonrd2uzQ==",
   "success": true,
-  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
+  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\Shared.Lib.EventBus\\Shared.Lib.EventBus.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
