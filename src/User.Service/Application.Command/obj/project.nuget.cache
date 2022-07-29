@@ -1,19 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "a8CuwcmkNBca6ng3t4UdsnUCD0N64XIeaOph3xiitjBxQxymB/VPXxHLTrLvRAVqHOkmHT4BZ0oRGGhix6/63w==",
+  "dgSpecHash": "7Ylh3kzJH4a9XlYctWpON1GTgJ3DLnhUdit+Kw6e7JzxbOG7DsbmHlRr7HWHGaKYPEklGGaD3IK2zOwXY7xS8A==",
   "success": true,
-  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj",
+  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Command\\Application.Command.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\k.karami\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\Kamran\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

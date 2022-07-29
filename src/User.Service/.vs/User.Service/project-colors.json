@@ -5,7 +5,77 @@
       "ProjectGuid": "2112f666-69cd-4393-a6bb-ce72787de26d",
       "DisplayName": "Controller.Worker",
       "ColorIndex": 0
+    },
+    "c04774b1-6e6e-48d4-af89-1d47a157f631": {
+      "ProjectGuid": "c04774b1-6e6e-48d4-af89-1d47a157f631",
+      "DisplayName": "Controller.Http.Rest",
+      "ColorIndex": 1
+    },
+    "ee89f531-45fd-471e-9dbd-237980d5c15d": {
+      "ProjectGuid": "ee89f531-45fd-471e-9dbd-237980d5c15d",
+      "DisplayName": "Domain.Entities",
+      "ColorIndex": 2
+    },
+    "221230f0-0def-432f-bdd0-4ce8256f9400": {
+      "ProjectGuid": "221230f0-0def-432f-bdd0-4ce8256f9400",
+      "DisplayName": "Infrastructure.Repository.SQLServer",
+      "ColorIndex": 3
+    },
+    "46aec509-0de3-4499-b42c-6fceef6adf0f": {
+      "ProjectGuid": "46aec509-0de3-4499-b42c-6fceef6adf0f",
+      "DisplayName": "Application.Query.UnitTest",
+      "ColorIndex": 4
+    },
+    "ca7aee09-a809-4078-87fb-81e12d85daef": {
+      "ProjectGuid": "ca7aee09-a809-4078-87fb-81e12d85daef",
+      "DisplayName": "Application.Query",
+      "ColorIndex": 5
+    },
+    "1eba555d-ac6c-400b-b2a0-19fb95461576": {
+      "ProjectGuid": "1eba555d-ac6c-400b-b2a0-19fb95461576",
+      "DisplayName": "Application.Command",
+      "ColorIndex": 6
+    },
+    "0e36e781-1bba-4113-8e5a-ee42ead1db58": {
+      "ProjectGuid": "0e36e781-1bba-4113-8e5a-ee42ead1db58",
+      "DisplayName": "Application.Command.UnitTests",
+      "ColorIndex": 7
+    },
+    "ae14c790-eb21-4492-898d-2f790343452d": {
+      "ProjectGuid": "ae14c790-eb21-4492-898d-2f790343452d",
+      "DisplayName": "Domain.Services",
+      "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "eabf00ec-2977-4e4a-b6db-495393a507c7": {
+      "ProjectGuid": "eabf00ec-2977-4e4a-b6db-495393a507c7",
+      "DisplayName": "Domain.Services.UnitTests",
+      "ColorIndex": 9
+    },
+    "a587ee39-e164-4537-896f-98c4ccdcf953": {
+      "ProjectGuid": "a587ee39-e164-4537-896f-98c4ccdcf953",
+      "DisplayName": "Infrastructure.EventBus.RabbitMQ",
+      "ColorIndex": 10
+    },
+    "7b6404bd-a6e7-4315-a8f6-9bfd45a93452": {
+      "ProjectGuid": "7b6404bd-a6e7-4315-a8f6-9bfd45a93452",
+      "DisplayName": "Infrastructure.Repository.Mock",
+      "ColorIndex": 11
+    },
+    "d29de2f5-6a9c-49da-ae84-c2b43bc4c09f": {
+      "ProjectGuid": "d29de2f5-6a9c-49da-ae84-c2b43bc4c09f",
+      "DisplayName": "Infrastructure.EventBus.Mock",
+      "ColorIndex": 12
+    },
+    "af440d61-6206-4029-86f0-23e78a650dd6": {
+      "ProjectGuid": "af440d61-6206-4029-86f0-23e78a650dd6",
+      "DisplayName": "Shared.Lib.EventBus",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 14
 }

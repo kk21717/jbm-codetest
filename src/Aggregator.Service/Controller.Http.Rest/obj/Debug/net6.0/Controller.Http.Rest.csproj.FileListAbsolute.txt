@@ -25,3 +25,30 @@ C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Deb
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\ref\Controller.Http.Rest.dll
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.pdb
 C:\Karami\other\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.genruntimeconfig.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\appsettings.Development.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\appsettings.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Controller.Http.Rest.exe
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Controller.Http.Rest.deps.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Controller.Http.Rest.runtimeconfig.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Controller.Http.Rest.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\ref\Controller.Http.Rest.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Controller.Http.Rest.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.csproj.AssemblyReference.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.AssemblyInfoInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.AssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.csproj.CoreCompileInputs.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.MvcApplicationPartsAssemblyInfo.cs
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.MvcApplicationPartsAssemblyInfo.cache
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\staticwebassets.build.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\staticwebassets.development.json
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\scopedcss\bundle\Controller.Http.Rest.styles.css
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.csproj.CopyComplete
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\ref\Controller.Http.Rest.dll
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.pdb
+C:\WorkingFolder\Code Tests\Jabama\jbm-codetest\src\Aggregator.Service\Controller.Http.Rest\obj\Debug\net6.0\Controller.Http.Rest.genruntimeconfig.cache

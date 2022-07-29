@@ -3,6 +3,7 @@ using Controller.Http.Rest.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using System.Text.Json;
+using Controller.Http.Rest.Util;
 
 namespace Controller.Http.Rest.Controllers
 {
@@ -11,13 +12,17 @@ namespace Controller.Http.Rest.Controllers
     public class UserAggregatorController : ControllerBase
     {
         private readonly ILogger<UserAggregatorController> _logger;
-        private readonly IUserAggregator _userAggregator;
+        //private readonly IUserAggregator _userAggregator;
+        private readonly IHttpClientServiceImplementation _httpClientFactoryService;
 
-        public UserAggregatorController(ILogger<UserAggregatorController> logger,
-            IUserAggregator userAggregator)
+        public UserAggregatorController(ILogger<UserAggregatorController> logger
+            //,IUserAggregator userAggregator
+            ,IHttpClientServiceImplementation httpClientFactoryService
+            )
         {
             _logger = logger;
-            _userAggregator = userAggregator;
+            //_userAggregator = userAggregator;
+            _httpClientFactoryService = httpClientFactoryService;
         }
 
 
@@ -26,8 +31,9 @@ namespace Controller.Http.Rest.Controllers
         [HttpGet]
         public async Task<UserView> GetUserView(int userId)
         {
-            var userView = await _userAggregator.GetUserViewAsync(userId);
-            return userView;
+            //var userView = await _userAggregator.GetUserViewAsync(userId);
+            var userView = _httpClientFactoryService.Execute();
+            return new UserView();
         }
 
        

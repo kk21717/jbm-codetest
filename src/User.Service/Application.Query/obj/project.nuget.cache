@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ipPBp9FDT5RUQ39Uj41ou2UgrisDjejA3e8sJ5KDcdM/0BQnBVxBE1wZfuILSfgMiKjLelUWCLfDlUlwRphjcQ==",
+  "dgSpecHash": "cNS6vdJZ8X7Fc8Jwho8HPm5TzCWJKpav4GwEmOatUg5FN+n+2QuubkeM9w4AsKaZ0slO9S3HUF4fpFpctuts3A==",
   "success": true,
-  "projectFilePath": "C:\\Karami\\other\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj",
+  "projectFilePath": "C:\\WorkingFolder\\Code Tests\\Jabama\\jbm-codetest\\src\\User.Service\\Application.Query\\Application.Query.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\k.karami\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
-    "C:\\Users\\k.karami\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+    "C:\\Users\\Kamran\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Kamran\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }
