@@ -2,8 +2,8 @@
 
 ###  Users Authentication and Registeration System.
 
-This is originally my solution to a code challenge. It is mostly revolved around common microservices patterns and practices and implemented .Net 6.0.
-please find a breif introduction of my implemented solution as follows:
+This is originally my solution to a code challenge. It is mostly revolved around common microservices patterns and practices, implemented in .Net 6.0.  
+Please find a breif introduction of my implemented solution as follows:
 
 ![image](https://user-images.githubusercontent.com/12792659/181851403-3c054f43-ef82-4d06-9a4b-7d8be0758a20.png)
 
